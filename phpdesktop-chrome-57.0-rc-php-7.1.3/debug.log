@@ -1,0 +1,2081 @@
+- 10:55:16.094 INFO: --------------------------------------------------------
+- 10:55:16.094 INFO: Started application
+- 10:55:16.094 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 10:55:16.094 INFO: Log level = DEBUG4
+- 10:55:16.094 INFO: Starting Mongoose 3.9c web server
+- 10:55:16.109 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 10:55:16.109 INFO: Index files: index.html,index.php
+- 10:55:16.109 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 10:55:16.109 INFO: CGI pattern: **.php$
+- 10:55:16.109 INFO: Hide files patterns: 
+- 10:55:16.109 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:55:16.109 INFO: Web server url: http://127.0.0.1:52822/
+- 10:55:16.141 INFO: remote_debugging_port = 62001
+- 10:55:16.156 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=62001
+- 10:55:17.016 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=65F04FF815F3FEC60EA91D0918F9AAAB --mojo-platform-channel-handle=1912 /prefetch:2
+- 10:55:17.734 DEBUG: App::OnContextInitialized()
+- 10:55:17.734 DEBUG: Window max width/height = 1286/680
+- 10:55:17.734 DEBUG: GetBrowserWindow(): not found, hwnd = 198164
+- 10:55:17.734 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:55:17.734 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:55:17.734 DEBUG: StoreBrowserWindow(): hwnd = 198164
+- 10:55:17.859 DEBUG: ClientHandler::OnAfterCreated()
+- 10:55:17.859 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:55:17.891 DEBUG: OnLoadingStateChange: loading=1, url=
+- 10:55:17.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=CB022B1F0927D24D0276A5FBB7C0823D --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=CB022B1F0927D24D0276A5FBB7C0823D --renderer-client-id=3 --mojo-platform-channel-handle=2436 /prefetch:1
+- 10:55:17.187 DEBUG: OnBrowserCreated()
+[0831/105517.753:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:55:20.719 INFO: GET 200 /
+- 10:55:20.734 INFO: GET 200 /style.css
+- 10:55:20.859 DEBUG: OnContextCreated()
+- 10:55:20.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52822/
+- 10:58:46.562 DEBUG: WM_DESTROY
+- 10:58:46.562 DEBUG: RemoveBrowserWindow(): hwnd = 198164
+- 10:58:46.562 INFO: Stopping Mongoose web server
+- 10:58:46.562 DEBUG: Mongoose webserver stopped immediately
+- 10:58:46.562 DEBUG: OnBeforeClose() hwnd=2688296
+- 10:58:46.562 DEBUG: RemoveBrowserWindow(): hwnd = 2688296
+- 10:58:46.562 DEBUG: GetBrowserWindow(): not found, hwnd = 2688296
+- 10:58:46.562 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:58:46.562 DEBUG: Calling CefQuitMessageLoop()
+- 10:58:46.672 DEBUG: OnBrowserDestroyed()
+- 10:58:47.641 INFO: Ended application
+- 10:58:47.641 INFO: --------------------------------------------------------
+- 10:58:58.000 INFO: --------------------------------------------------------
+- 10:58:58.000 INFO: Started application
+- 10:58:58.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 10:58:58.000 INFO: Log level = DEBUG4
+- 10:58:58.000 INFO: Starting Mongoose 3.9c web server
+- 10:58:58.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 10:58:58.000 INFO: Index files: index.html,index.php
+- 10:58:58.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 10:58:58.000 INFO: CGI pattern: **.php$
+- 10:58:58.000 INFO: Hide files patterns: 
+- 10:58:58.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 10:58:58.000 INFO: Web server url: http://127.0.0.1:52848/
+- 10:58:58.016 INFO: remote_debugging_port = 57905
+- 10:58:58.016 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=57905
+- 10:58:58.047 DEBUG: App::OnContextInitialized()
+- 10:58:58.047 DEBUG: Window max width/height = 1286/680
+- 10:58:58.047 DEBUG: GetBrowserWindow(): not found, hwnd = 1376728
+- 10:58:58.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 10:58:58.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 10:58:58.047 DEBUG: StoreBrowserWindow(): hwnd = 1376728
+- 10:58:58.000 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=A8D1810FFDD82B19BC4DEF44FDE019A1 --mojo-platform-channel-handle=1776 /prefetch:2
+- 10:58:58.125 DEBUG: ClientHandler::OnAfterCreated()
+- 10:58:58.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 10:58:58.141 DEBUG: OnLoadingStateChange: loading=1, url=
+[0831/105859.660:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 10:58:59.015 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=04BABDD0B06052F93F2D4A403337D66F --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=04BABDD0B06052F93F2D4A403337D66F --renderer-client-id=3 --mojo-platform-channel-handle=2392 /prefetch:1
+- 10:58:59.062 DEBUG: OnBrowserCreated()
+- 10:59:02.797 INFO: GET 200 /
+- 10:59:02.844 INFO: GET 200 /style.css
+- 10:59:02.234 DEBUG: OnContextCreated()
+- 10:59:02.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52848/
+- 10:59:39.547 DEBUG: WM_DESTROY
+- 10:59:39.547 DEBUG: RemoveBrowserWindow(): hwnd = 1376728
+- 10:59:39.547 INFO: Stopping Mongoose web server
+- 10:59:39.547 DEBUG: Mongoose webserver stopped immediately
+- 10:59:39.547 DEBUG: OnBeforeClose() hwnd=1049648
+- 10:59:39.547 DEBUG: RemoveBrowserWindow(): hwnd = 1049648
+- 10:59:39.547 DEBUG: GetBrowserWindow(): not found, hwnd = 1049648
+- 10:59:39.547 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 10:59:39.547 DEBUG: Calling CefQuitMessageLoop()
+- 10:59:39.563 INFO: Ended application
+- 10:59:39.563 INFO: --------------------------------------------------------
+- 11:00:45.000 INFO: --------------------------------------------------------
+- 11:00:45.000 INFO: Started application
+- 11:00:45.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:00:45.000 INFO: Log level = DEBUG4
+- 11:00:45.000 INFO: Starting Mongoose 3.9c web server
+- 11:00:45.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:00:45.000 INFO: Index files: index.html,index.php
+- 11:00:45.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:00:45.000 INFO: CGI pattern: **.php$
+- 11:00:45.000 INFO: Hide files patterns: 
+- 11:00:45.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:00:45.000 INFO: Web server url: http://127.0.0.1:52853/
+- 11:00:45.000 INFO: remote_debugging_port = 61135
+- 11:00:45.016 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=61135
+- 11:00:45.063 DEBUG: App::OnContextInitialized()
+- 11:00:45.063 DEBUG: Window max width/height = 1286/680
+- 11:00:45.063 DEBUG: GetBrowserWindow(): not found, hwnd = 2163888
+- 11:00:45.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:00:45.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:00:45.063 DEBUG: StoreBrowserWindow(): hwnd = 2163888
+- 11:00:45.000 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=0EB292C0AFAAB6B8EC5F69D57518AE91 --mojo-platform-channel-handle=1452 /prefetch:2
+- 11:00:45.125 DEBUG: ClientHandler::OnAfterCreated()
+- 11:00:45.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:00:45.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:00:45.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=0367847A0EBC3B4E754752EF2617144E --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0367847A0EBC3B4E754752EF2617144E --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+[0831/110045.935:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:00:45.094 DEBUG: OnBrowserCreated()
+- 11:00:47.500 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:00:47.500 INFO: GET 200 /style.css
+- 11:00:47.500 INFO: GET 200 /main/css/bootstrap.css
+- 11:00:47.500 INFO: GET 200 /
+- 11:00:47.516 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:00:47.516 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:00:47.610 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:00:47.610 INFO: GET 200 /main/img/bg/4.png
+- 11:00:47.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52853/
+- 11:00:55.204 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52853/
+- 11:00:57.344 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52853/login.php
+- 11:00:57.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52853/
+- 11:00:57.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52853/
+- 11:01:00.422 INFO: POST 200 /login.php
+- 11:01:03.407 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:52853/login.php
+- 11:01:03.407 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52853/
+- 11:01:03.407 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52853/
+- 11:01:04.500 INFO: POST 200 /login.php
+- 11:01:08.610 INFO: POST 200 /login.php
+- 11:01:08.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52853/login.php
+- 11:01:32.860 DEBUG: WM_DESTROY
+- 11:01:32.860 DEBUG: RemoveBrowserWindow(): hwnd = 2163888
+- 11:01:32.860 INFO: Stopping Mongoose web server
+- 11:01:32.860 DEBUG: Mongoose webserver stopped immediately
+- 11:01:32.860 DEBUG: OnBeforeClose() hwnd=787828
+- 11:01:32.860 DEBUG: RemoveBrowserWindow(): hwnd = 787828
+- 11:01:32.860 DEBUG: GetBrowserWindow(): not found, hwnd = 787828
+- 11:01:32.860 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:01:32.860 DEBUG: Calling CefQuitMessageLoop()
+- 11:01:32.907 INFO: Ended application
+- 11:01:32.907 INFO: --------------------------------------------------------
+- 11:04:04.015 INFO: --------------------------------------------------------
+- 11:04:04.015 INFO: Started application
+- 11:04:04.015 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:04:04.015 INFO: Log level = DEBUG4
+- 11:04:04.015 INFO: Starting Mongoose 3.9c web server
+- 11:04:04.015 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:04:04.015 INFO: Index files: index.html,index.php
+- 11:04:04.015 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:04:04.015 INFO: CGI pattern: **.php$
+- 11:04:04.015 INFO: Hide files patterns: 
+- 11:04:04.015 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:04:04.015 INFO: Web server url: http://127.0.0.1:52887/
+- 11:04:04.015 INFO: remote_debugging_port = 57217
+- 11:04:04.015 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=57217
+- 11:04:04.062 DEBUG: App::OnContextInitialized()
+- 11:04:04.062 DEBUG: Window max width/height = 1286/680
+- 11:04:04.062 DEBUG: GetBrowserWindow(): not found, hwnd = 1770858
+- 11:04:04.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:04:04.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:04:04.062 DEBUG: StoreBrowserWindow(): hwnd = 1770858
+- 11:04:04.000 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=B130E3923090A84714D90CA7A0EA8A92 --mojo-platform-channel-handle=1792 /prefetch:2
+- 11:04:04.125 DEBUG: ClientHandler::OnAfterCreated()
+- 11:04:04.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:04:04.140 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:04:04.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=644F1B60378FC1D9E8EC504D87FECEC8 --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=644F1B60378FC1D9E8EC504D87FECEC8 --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+[0831/110404.770:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:04:04.094 DEBUG: OnBrowserCreated()
+- 11:04:06.531 INFO: GET 200 /main/css/bootstrap.css
+- 11:04:06.546 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:04:06.546 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:04:06.546 INFO: GET 200 /style.css
+- 11:04:06.546 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:04:06.546 INFO: GET 200 /
+- 11:04:06.578 INFO: GET 200 /main/img/bg/4.png
+- 11:04:06.578 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:04:06.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52887/
+- 11:04:12.765 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52887/
+- 11:04:12.906 INFO: POST 200 /login.php
+- 11:04:12.921 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52887/login.php
+- 11:06:33.015 DEBUG: WM_DESTROY
+- 11:06:33.015 DEBUG: RemoveBrowserWindow(): hwnd = 1770858
+- 11:06:33.015 INFO: Stopping Mongoose web server
+- 11:06:33.015 DEBUG: Mongoose webserver stopped immediately
+- 11:06:33.015 DEBUG: OnBeforeClose() hwnd=2228428
+- 11:06:33.015 DEBUG: RemoveBrowserWindow(): hwnd = 2228428
+- 11:06:33.015 DEBUG: GetBrowserWindow(): not found, hwnd = 2228428
+- 11:06:33.015 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:06:33.015 DEBUG: Calling CefQuitMessageLoop()
+- 11:06:33.062 INFO: Ended application
+- 11:06:33.062 INFO: --------------------------------------------------------
+- 11:07:11.000 INFO: --------------------------------------------------------
+- 11:07:11.000 INFO: Started application
+- 11:07:11.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:07:11.000 INFO: Log level = DEBUG4
+- 11:07:11.000 INFO: Starting Mongoose 3.9c web server
+- 11:07:11.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:07:11.000 INFO: Index files: index.html,index.php
+- 11:07:11.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:07:11.000 INFO: CGI pattern: **.php$
+- 11:07:11.000 INFO: Hide files patterns: 
+- 11:07:11.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:07:11.000 INFO: Web server url: http://127.0.0.1:52920/
+- 11:07:11.000 INFO: remote_debugging_port = 56654
+- 11:07:11.000 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=56654
+- 11:07:12.063 DEBUG: App::OnContextInitialized()
+- 11:07:12.063 DEBUG: Window max width/height = 1286/680
+- 11:07:12.063 DEBUG: GetBrowserWindow(): not found, hwnd = 2491568
+- 11:07:12.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:07:12.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:07:12.063 DEBUG: StoreBrowserWindow(): hwnd = 2491568
+- 11:07:12.016 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=09D736EF8E3CAD3020DDB7A739C5618A --mojo-platform-channel-handle=1772 /prefetch:2
+- 11:07:12.110 DEBUG: ClientHandler::OnAfterCreated()
+- 11:07:12.110 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:07:12.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:07:12.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=270E09131F0848A254A44CE587DD0E2C --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=270E09131F0848A254A44CE587DD0E2C --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+[0831/110712.198:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:07:12.094 DEBUG: OnBrowserCreated()
+- 11:07:13.485 INFO: GET 200 /main/css/bootstrap.css
+- 11:07:13.485 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:07:13.485 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:07:13.485 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:07:13.485 INFO: GET 200 /style.css
+- 11:07:13.485 INFO: GET 200 /
+- 11:07:13.532 INFO: GET 200 /main/img/bg/4.png
+- 11:07:13.532 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:07:13.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52920/
+- 11:07:20.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52920/
+- 11:07:20.969 INFO: POST 200 /login.php
+- 11:07:20.985 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52920/login.php
+- 11:13:22.657 DEBUG: WM_DESTROY
+- 11:13:22.657 DEBUG: RemoveBrowserWindow(): hwnd = 2491568
+- 11:13:22.657 INFO: Stopping Mongoose web server
+- 11:13:22.657 DEBUG: Mongoose webserver stopped immediately
+- 11:13:22.672 DEBUG: OnBeforeClose() hwnd=1639954
+- 11:13:22.672 DEBUG: RemoveBrowserWindow(): hwnd = 1639954
+- 11:13:22.672 DEBUG: GetBrowserWindow(): not found, hwnd = 1639954
+- 11:13:22.672 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:13:22.672 DEBUG: Calling CefQuitMessageLoop()
+- 11:13:22.719 INFO: Ended application
+- 11:13:22.719 INFO: --------------------------------------------------------
+- 11:13:27.000 INFO: --------------------------------------------------------
+- 11:13:27.000 INFO: Started application
+- 11:13:27.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:13:27.000 INFO: Log level = DEBUG4
+- 11:13:27.000 INFO: Starting Mongoose 3.9c web server
+- 11:13:27.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:13:27.000 INFO: Index files: index.html,index.php
+- 11:13:27.015 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:13:27.015 INFO: CGI pattern: **.php$
+- 11:13:27.015 INFO: Hide files patterns: 
+- 11:13:27.015 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:13:27.015 INFO: Web server url: http://127.0.0.1:52933/
+- 11:13:27.015 INFO: remote_debugging_port = 54475
+- 11:13:27.015 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=54475
+- 11:13:27.046 DEBUG: App::OnContextInitialized()
+- 11:13:27.046 DEBUG: Window max width/height = 1286/680
+- 11:13:27.046 DEBUG: GetBrowserWindow(): not found, hwnd = 918982
+- 11:13:27.046 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:13:27.046 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:13:27.046 DEBUG: StoreBrowserWindow(): hwnd = 918982
+- 11:13:27.016 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=B2FED6E9A1028AA9D9F815AC1AF08F36 --mojo-platform-channel-handle=1780 /prefetch:2
+- 11:13:27.125 DEBUG: ClientHandler::OnAfterCreated()
+- 11:13:27.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:13:27.156 DEBUG: OnLoadingStateChange: loading=1, url=
+[0831/111327.250:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:13:27.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=AF1FB595D92CF17C0AAC537EBCB15A01 --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=AF1FB595D92CF17C0AAC537EBCB15A01 --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+- 11:13:28.031 DEBUG: OnBrowserCreated()
+- 11:13:29.125 INFO: GET 200 /main/css/bootstrap.css
+- 11:13:29.125 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:13:29.125 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:13:29.125 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:13:29.125 INFO: GET 200 /style.css
+- 11:13:29.125 INFO: GET 200 /
+- 11:13:29.140 INFO: GET 200 /main/img/bg/4.png
+- 11:13:29.140 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:13:29.218 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52933/
+- 11:13:36.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52933/
+- 11:13:36.156 INFO: POST 200 /login.php
+- 11:13:36.171 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52933/login.php
+- 11:14:50.765 DEBUG: WM_DESTROY
+- 11:14:50.765 DEBUG: RemoveBrowserWindow(): hwnd = 918982
+- 11:14:50.765 INFO: Stopping Mongoose web server
+- 11:14:50.765 DEBUG: Mongoose webserver stopped immediately
+- 11:14:50.765 DEBUG: OnBeforeClose() hwnd=2884620
+- 11:14:50.765 DEBUG: RemoveBrowserWindow(): hwnd = 2884620
+- 11:14:50.765 DEBUG: GetBrowserWindow(): not found, hwnd = 2884620
+- 11:14:50.765 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:14:50.765 DEBUG: Calling CefQuitMessageLoop()
+- 11:14:50.859 INFO: Ended application
+- 11:14:50.859 INFO: --------------------------------------------------------
+- 11:14:52.000 INFO: --------------------------------------------------------
+- 11:14:52.000 INFO: Started application
+- 11:14:52.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:14:52.000 INFO: Log level = DEBUG4
+- 11:14:52.000 INFO: Starting Mongoose 3.9c web server
+- 11:14:52.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:14:52.000 INFO: Index files: index.html,index.php
+- 11:14:52.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:14:52.000 INFO: CGI pattern: **.php$
+- 11:14:52.000 INFO: Hide files patterns: 
+- 11:14:52.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:14:52.016 INFO: Web server url: http://127.0.0.1:52947/
+- 11:14:52.016 INFO: remote_debugging_port = 58390
+- 11:14:52.016 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=58390
+- 11:14:53.047 DEBUG: App::OnContextInitialized()
+- 11:14:53.047 DEBUG: Window max width/height = 1286/680
+- 11:14:53.047 DEBUG: GetBrowserWindow(): not found, hwnd = 2491754
+- 11:14:53.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:14:53.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:14:53.047 DEBUG: StoreBrowserWindow(): hwnd = 2491754
+- 11:14:53.000 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=684BF87E1C81D3C4750E27AB50F864BA --mojo-platform-channel-handle=1772 /prefetch:2
+- 11:14:53.157 DEBUG: ClientHandler::OnAfterCreated()
+- 11:14:53.157 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:14:53.172 DEBUG: OnLoadingStateChange: loading=1, url=
+[0831/111453.174:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:14:53.015 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=A7E643E7CF24829A62DFE1C2F886474E --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A7E643E7CF24829A62DFE1C2F886474E --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+- 11:14:53.078 DEBUG: OnBrowserCreated()
+- 11:14:54.469 INFO: GET 200 /main/css/bootstrap.css
+- 11:14:54.469 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:14:54.469 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:14:54.469 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:14:54.469 INFO: GET 200 /style.css
+- 11:14:54.469 INFO: GET 200 /
+- 11:14:54.829 INFO: GET 200 /main/img/bg/4.png
+- 11:14:54.829 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:14:54.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52947/
+- 11:15:01.204 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52947/
+- 11:15:01.313 INFO: POST 200 /login.php
+- 11:15:01.329 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52947/login.php
+- 11:15:41.922 DEBUG: WM_DESTROY
+- 11:15:41.922 DEBUG: RemoveBrowserWindow(): hwnd = 2491754
+- 11:15:41.922 INFO: Stopping Mongoose web server
+- 11:15:41.922 DEBUG: Mongoose webserver stopped immediately
+- 11:15:41.938 DEBUG: OnBeforeClose() hwnd=2295316
+- 11:15:41.938 DEBUG: RemoveBrowserWindow(): hwnd = 2295316
+- 11:15:41.938 DEBUG: GetBrowserWindow(): not found, hwnd = 2295316
+- 11:15:41.938 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:15:41.938 DEBUG: Calling CefQuitMessageLoop()
+- 11:15:41.016 INFO: Ended application
+- 11:15:41.016 INFO: --------------------------------------------------------
+- 11:15:46.016 INFO: --------------------------------------------------------
+- 11:15:46.016 INFO: Started application
+- 11:15:46.016 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:15:46.016 INFO: Log level = DEBUG4
+- 11:15:46.016 INFO: Starting Mongoose 3.9c web server
+- 11:15:46.016 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:15:46.016 INFO: Index files: index.html,index.php
+- 11:15:46.016 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:15:46.016 INFO: CGI pattern: **.php$
+- 11:15:46.016 INFO: Hide files patterns: 
+- 11:15:46.016 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:15:46.016 INFO: Web server url: http://127.0.0.1:52977/
+- 11:15:46.016 INFO: remote_debugging_port = 63111
+- 11:15:46.016 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=63111
+- 11:15:46.063 DEBUG: App::OnContextInitialized()
+- 11:15:46.063 DEBUG: Window max width/height = 1286/680
+- 11:15:46.063 DEBUG: GetBrowserWindow(): not found, hwnd = 3671444
+- 11:15:46.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:15:46.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:15:46.063 DEBUG: StoreBrowserWindow(): hwnd = 3671444
+- 11:15:46.000 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=F3608DEA19736EC80225EC036F178D13 --mojo-platform-channel-handle=1772 /prefetch:2
+- 11:15:46.125 DEBUG: ClientHandler::OnAfterCreated()
+- 11:15:46.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:15:46.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:15:46.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=B5B1DBDBC10B8E6E2FA530D861666708 --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B5B1DBDBC10B8E6E2FA530D861666708 --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+[0831/111546.221:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:15:46.078 DEBUG: OnBrowserCreated()
+- 11:15:47.438 INFO: GET 200 /main/css/bootstrap.css
+- 11:15:47.453 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:15:47.453 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:15:47.453 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:15:47.453 INFO: GET 200 /style.css
+- 11:15:47.453 INFO: GET 200 /
+- 11:15:47.485 INFO: GET 200 /main/img/bg/4.png
+- 11:15:47.485 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:15:47.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52977/
+- 11:15:56.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52977/
+- 11:15:57.000 INFO: POST 200 /login.php
+- 11:15:57.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52977/login.php
+- 11:17:00.610 DEBUG: WM_DESTROY
+- 11:17:00.610 DEBUG: RemoveBrowserWindow(): hwnd = 3671444
+- 11:17:00.610 INFO: Stopping Mongoose web server
+- 11:17:00.610 DEBUG: Mongoose webserver stopped immediately
+- 11:17:00.625 DEBUG: OnBeforeClose() hwnd=1967634
+- 11:17:00.625 DEBUG: RemoveBrowserWindow(): hwnd = 1967634
+- 11:17:00.625 DEBUG: GetBrowserWindow(): not found, hwnd = 1967634
+- 11:17:00.625 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:17:00.625 DEBUG: Calling CefQuitMessageLoop()
+- 11:17:00.719 INFO: Ended application
+- 11:17:00.719 INFO: --------------------------------------------------------
+- 11:17:02.000 INFO: --------------------------------------------------------
+- 11:17:02.000 INFO: Started application
+- 11:17:02.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:17:02.000 INFO: Log level = DEBUG4
+- 11:17:02.000 INFO: Starting Mongoose 3.9c web server
+- 11:17:02.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:17:02.000 INFO: Index files: index.html,index.php
+- 11:17:02.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:17:02.000 INFO: CGI pattern: **.php$
+- 11:17:02.000 INFO: Hide files patterns: 
+- 11:17:02.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:17:02.016 INFO: Web server url: http://127.0.0.1:52991/
+- 11:17:02.016 INFO: remote_debugging_port = 61073
+- 11:17:02.016 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=61073
+- 11:17:02.063 DEBUG: App::OnContextInitialized()
+- 11:17:02.063 DEBUG: Window max width/height = 1286/680
+- 11:17:02.063 DEBUG: GetBrowserWindow(): not found, hwnd = 3736980
+- 11:17:02.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:17:02.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:17:02.063 DEBUG: StoreBrowserWindow(): hwnd = 3736980
+- 11:17:02.109 DEBUG: ClientHandler::OnAfterCreated()
+- 11:17:02.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:17:02.016 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=83F4602FB86FF157A0A151A3A6A8707E --mojo-platform-channel-handle=1772 /prefetch:2
+- 11:17:02.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:17:02.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=0D67C22978D8E47BF3914B0AA55E32BA --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0D67C22978D8E47BF3914B0AA55E32BA --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+[0831/111702.864:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:17:02.093 DEBUG: OnBrowserCreated()
+- 11:17:04.531 INFO: GET 200 /main/css/bootstrap.css
+- 11:17:04.531 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:17:04.531 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:17:04.531 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:17:04.531 INFO: GET 200 /style.css
+- 11:17:04.531 INFO: GET 200 /
+- 11:17:04.563 INFO: GET 200 /main/img/bg/4.png
+- 11:17:04.563 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:17:04.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52991/
+- 11:17:13.641 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:52991/
+- 11:17:13.781 INFO: POST 200 /login.php
+- 11:17:13.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:52991/login.php
+- 11:18:51.297 DEBUG: WM_DESTROY
+- 11:18:51.297 DEBUG: RemoveBrowserWindow(): hwnd = 3736980
+- 11:18:51.297 INFO: Stopping Mongoose web server
+- 11:18:51.297 DEBUG: Mongoose webserver stopped immediately
+- 11:18:51.297 DEBUG: OnBeforeClose() hwnd=2097644
+- 11:18:51.297 DEBUG: RemoveBrowserWindow(): hwnd = 2097644
+- 11:18:51.297 DEBUG: GetBrowserWindow(): not found, hwnd = 2097644
+- 11:18:51.297 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:18:51.297 DEBUG: Calling CefQuitMessageLoop()
+- 11:18:51.156 DEBUG: OnBrowserDestroyed()
+- 11:18:51.359 INFO: Ended application
+- 11:18:51.359 INFO: --------------------------------------------------------
+- 11:18:54.000 INFO: --------------------------------------------------------
+- 11:18:54.000 INFO: Started application
+- 11:18:54.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:18:54.000 INFO: Log level = DEBUG4
+- 11:18:54.000 INFO: Starting Mongoose 3.9c web server
+- 11:18:54.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:18:54.000 INFO: Index files: index.html,index.php
+- 11:18:54.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:18:54.000 INFO: CGI pattern: **.php$
+- 11:18:54.000 INFO: Hide files patterns: 
+- 11:18:54.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:18:54.000 INFO: Web server url: http://127.0.0.1:53005/
+- 11:18:54.000 INFO: remote_debugging_port = 51410
+- 11:18:54.000 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=51410
+- 11:18:54.063 DEBUG: App::OnContextInitialized()
+- 11:18:54.063 DEBUG: Window max width/height = 1286/680
+- 11:18:54.063 DEBUG: GetBrowserWindow(): not found, hwnd = 7275420
+- 11:18:54.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:18:54.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:18:54.063 DEBUG: StoreBrowserWindow(): hwnd = 7275420
+- 11:18:54.016 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=1674255906497EE29FDD9257BA1A02C3 --mojo-platform-channel-handle=1780 /prefetch:2
+- 11:18:54.094 DEBUG: ClientHandler::OnAfterCreated()
+- 11:18:54.094 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:18:54.125 DEBUG: OnLoadingStateChange: loading=1, url=
+[0831/111854.423:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:18:54.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=4C608D5586ADD4085CC2389F54D8BC3D --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4C608D5586ADD4085CC2389F54D8BC3D --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+- 11:18:54.062 DEBUG: OnBrowserCreated()
+- 11:18:55.484 INFO: GET 200 /main/css/bootstrap.css
+- 11:18:55.484 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:18:55.484 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:18:55.484 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:18:55.484 INFO: GET 200 /style.css
+- 11:18:55.484 INFO: GET 200 /
+- 11:18:55.516 INFO: GET 200 /main/img/bg/4.png
+- 11:18:55.516 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:18:55.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53005/
+- 11:19:01.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53005/
+- 11:19:01.359 INFO: POST 200 /login.php
+- 11:19:01.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53005/login.php
+- 11:24:01.125 DEBUG: WM_DESTROY
+- 11:24:01.125 DEBUG: RemoveBrowserWindow(): hwnd = 7275420
+- 11:24:01.125 INFO: Stopping Mongoose web server
+- 11:24:01.125 DEBUG: Mongoose webserver stopped immediately
+- 11:24:01.125 DEBUG: OnBeforeClose() hwnd=11272280
+- 11:24:01.125 DEBUG: RemoveBrowserWindow(): hwnd = 11272280
+- 11:24:01.125 DEBUG: GetBrowserWindow(): not found, hwnd = 11272280
+- 11:24:01.125 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:24:01.125 DEBUG: Calling CefQuitMessageLoop()
+- 11:24:01.172 INFO: Ended application
+- 11:24:01.172 INFO: --------------------------------------------------------
+- 11:24:05.000 INFO: --------------------------------------------------------
+- 11:24:05.000 INFO: Started application
+- 11:24:05.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:24:05.000 INFO: Log level = DEBUG4
+- 11:24:05.000 INFO: Starting Mongoose 3.9c web server
+- 11:24:05.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:24:05.000 INFO: Index files: index.html,index.php
+- 11:24:05.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:24:05.000 INFO: CGI pattern: **.php$
+- 11:24:05.000 INFO: Hide files patterns: 
+- 11:24:05.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:24:05.016 INFO: Web server url: http://127.0.0.1:53020/
+- 11:24:05.016 INFO: remote_debugging_port = 52070
+- 11:24:05.016 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=52070
+- 11:24:05.047 DEBUG: App::OnContextInitialized()
+- 11:24:05.047 DEBUG: Window max width/height = 1286/680
+- 11:24:05.047 DEBUG: GetBrowserWindow(): not found, hwnd = 1967728
+- 11:24:05.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:24:05.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:24:05.047 DEBUG: StoreBrowserWindow(): hwnd = 1967728
+- 11:24:05.000 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=4FAAD34F69150C6BB2D0AD05672B7979 --mojo-platform-channel-handle=1772 /prefetch:2
+- 11:24:05.109 DEBUG: ClientHandler::OnAfterCreated()
+- 11:24:05.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:24:05.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:24:05.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=EAF8A26E70F49A36360DD55464A98658 --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=EAF8A26E70F49A36360DD55464A98658 --renderer-client-id=3 --mojo-platform-channel-handle=2376 /prefetch:1
+[0831/112406.002:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:24:06.078 DEBUG: OnBrowserCreated()
+- 11:24:07.437 INFO: GET 200 /main/css/bootstrap.css
+- 11:24:07.437 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:24:07.437 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:24:07.437 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:24:07.437 INFO: GET 200 /style.css
+- 11:24:07.437 INFO: GET 200 /
+- 11:24:08.812 INFO: GET 200 /main/img/bg/4.png
+- 11:24:08.812 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:24:08.844 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53020/
+- 11:24:12.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53020/
+- 11:24:12.078 INFO: POST 200 /login.php
+- 11:24:12.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53020/login.php
+- 11:25:18.203 DEBUG: WM_DESTROY
+- 11:25:18.203 DEBUG: RemoveBrowserWindow(): hwnd = 1967728
+- 11:25:18.203 INFO: Stopping Mongoose web server
+- 11:25:18.203 DEBUG: Mongoose webserver stopped immediately
+- 11:25:18.219 DEBUG: OnBeforeClose() hwnd=4588692
+- 11:25:18.219 DEBUG: RemoveBrowserWindow(): hwnd = 4588692
+- 11:25:18.219 DEBUG: GetBrowserWindow(): not found, hwnd = 4588692
+- 11:25:18.219 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:25:18.219 DEBUG: Calling CefQuitMessageLoop()
+- 11:25:19.297 INFO: Ended application
+- 11:25:19.297 INFO: --------------------------------------------------------
+- 11:25:21.000 INFO: --------------------------------------------------------
+- 11:25:21.000 INFO: Started application
+- 11:25:21.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:25:21.000 INFO: Log level = DEBUG4
+- 11:25:21.000 INFO: Starting Mongoose 3.9c web server
+- 11:25:21.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:25:21.000 INFO: Index files: index.html,index.php
+- 11:25:21.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:25:21.000 INFO: CGI pattern: **.php$
+- 11:25:21.000 INFO: Hide files patterns: 
+- 11:25:21.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:25:21.000 INFO: Web server url: http://127.0.0.1:53050/
+- 11:25:21.000 INFO: remote_debugging_port = 57811
+- 11:25:21.015 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=57811
+- 11:25:21.062 DEBUG: App::OnContextInitialized()
+- 11:25:21.062 DEBUG: Window max width/height = 1286/680
+- 11:25:21.062 DEBUG: GetBrowserWindow(): not found, hwnd = 3343372
+- 11:25:21.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:25:21.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:25:21.062 DEBUG: StoreBrowserWindow(): hwnd = 3343372
+- 11:25:21.109 DEBUG: ClientHandler::OnAfterCreated()
+- 11:25:21.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:25:21.016 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=626292DE34F88050FE4D7D634F702DB8 --mojo-platform-channel-handle=1796 /prefetch:2
+- 11:25:21.140 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:25:21.016 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=C978030C294A2E3A31630BBB2A1A25E6 --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=C978030C294A2E3A31630BBB2A1A25E6 --renderer-client-id=3 --mojo-platform-channel-handle=2380 /prefetch:1
+[0831/112521.758:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:25:21.079 DEBUG: OnBrowserCreated()
+- 11:25:22.406 INFO: GET 200 /main/css/bootstrap.css
+- 11:25:22.406 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:25:22.406 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:25:22.406 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:25:22.406 INFO: GET 200 /style.css
+- 11:25:22.406 INFO: GET 200 /
+- 11:25:22.453 INFO: GET 200 /main/img/bg/4.png
+- 11:25:22.453 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:25:23.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53050/
+- 11:25:28.843 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53050/
+- 11:25:28.937 INFO: POST 200 /login.php
+- 11:25:28.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53050/login.php
+- 11:26:20.359 DEBUG: WM_DESTROY
+- 11:26:20.359 DEBUG: RemoveBrowserWindow(): hwnd = 3343372
+- 11:26:20.359 INFO: Stopping Mongoose web server
+- 11:26:20.359 DEBUG: Mongoose webserver stopped immediately
+- 11:26:20.359 DEBUG: OnBeforeClose() hwnd=11468888
+- 11:26:20.359 DEBUG: RemoveBrowserWindow(): hwnd = 11468888
+- 11:26:20.359 DEBUG: GetBrowserWindow(): not found, hwnd = 11468888
+- 11:26:20.359 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:26:20.359 DEBUG: Calling CefQuitMessageLoop()
+- 11:26:20.453 INFO: Ended application
+- 11:26:20.453 INFO: --------------------------------------------------------
+- 11:26:22.000 INFO: --------------------------------------------------------
+- 11:26:22.000 INFO: Started application
+- 11:26:22.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:26:22.000 INFO: Log level = DEBUG4
+- 11:26:22.000 INFO: Starting Mongoose 3.9c web server
+- 11:26:22.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:26:22.000 INFO: Index files: index.html,index.php
+- 11:26:22.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:26:22.000 INFO: CGI pattern: **.php$
+- 11:26:22.000 INFO: Hide files patterns: 
+- 11:26:22.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:26:22.000 INFO: Web server url: http://127.0.0.1:53060/
+- 11:26:22.015 INFO: remote_debugging_port = 62429
+- 11:26:22.015 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=62429
+- 11:26:22.062 DEBUG: App::OnContextInitialized()
+- 11:26:22.062 DEBUG: Window max width/height = 1286/680
+- 11:26:22.062 DEBUG: GetBrowserWindow(): not found, hwnd = 11534424
+- 11:26:22.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:26:22.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:26:22.062 DEBUG: StoreBrowserWindow(): hwnd = 11534424
+- 11:26:22.125 DEBUG: ClientHandler::OnAfterCreated()
+- 11:26:22.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:26:22.016 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=25490BB8BB011A01D8B02CF9D84AC24B --mojo-platform-channel-handle=1788 /prefetch:2
+- 11:26:22.140 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:26:22.016 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=F7FE996F5F18349F37426CB520C086E1 --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=F7FE996F5F18349F37426CB520C086E1 --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+[0831/112623.000:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:26:23.079 DEBUG: OnBrowserCreated()
+- 11:26:24.453 INFO: GET 200 /main/css/bootstrap.css
+- 11:26:24.453 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:26:24.453 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:26:24.453 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:26:24.453 INFO: GET 200 /style.css
+- 11:26:24.453 INFO: GET 200 /
+- 11:26:24.484 INFO: GET 200 /main/img/bg/4.png
+- 11:26:24.484 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:26:24.546 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53060/
+- 11:26:29.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53060/
+- 11:26:29.812 INFO: POST 200 /login.php
+- 11:26:29.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53060/login.php
+- 11:28:25.140 DEBUG: WM_DESTROY
+- 11:28:25.140 DEBUG: RemoveBrowserWindow(): hwnd = 11534424
+- 11:28:25.140 INFO: Stopping Mongoose web server
+- 11:28:25.140 DEBUG: Mongoose webserver stopped immediately
+- 11:28:25.140 DEBUG: OnBeforeClose() hwnd=4719764
+- 11:28:25.140 DEBUG: RemoveBrowserWindow(): hwnd = 4719764
+- 11:28:25.140 DEBUG: GetBrowserWindow(): not found, hwnd = 4719764
+- 11:28:25.140 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:28:25.140 DEBUG: Calling CefQuitMessageLoop()
+- 11:28:26.218 INFO: Ended application
+- 11:28:26.218 INFO: --------------------------------------------------------
+- 11:28:35.000 INFO: --------------------------------------------------------
+- 11:28:35.000 INFO: Started application
+- 11:28:35.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:28:35.000 INFO: Log level = DEBUG4
+- 11:28:35.000 INFO: Starting Mongoose 3.9c web server
+- 11:28:35.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:28:35.000 INFO: Index files: index.html,index.php
+- 11:28:35.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:28:35.000 INFO: CGI pattern: **.php$
+- 11:28:35.000 INFO: Hide files patterns: 
+- 11:28:35.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:28:35.015 INFO: Web server url: http://127.0.0.1:53071/
+- 11:28:35.015 INFO: remote_debugging_port = 56646
+- 11:28:35.015 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=56646
+- 11:28:35.062 DEBUG: App::OnContextInitialized()
+- 11:28:35.062 DEBUG: Window max width/height = 1286/680
+- 11:28:35.062 DEBUG: GetBrowserWindow(): not found, hwnd = 6292800
+- 11:28:35.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:28:35.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:28:35.062 DEBUG: StoreBrowserWindow(): hwnd = 6292800
+- 11:28:35.015 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=B1049D5C71A8384A965207F2FD6BFD8B --mojo-platform-channel-handle=1776 /prefetch:2
+- 11:28:35.156 DEBUG: ClientHandler::OnAfterCreated()
+- 11:28:35.156 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:28:35.171 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:28:35.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=34C0944CB683FED3D33DA319AC4FD5B9 --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=34C0944CB683FED3D33DA319AC4FD5B9 --renderer-client-id=3 --mojo-platform-channel-handle=2412 /prefetch:1
+[0831/112835.900:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:28:35.078 DEBUG: OnBrowserCreated()
+- 11:28:37.500 INFO: GET 200 /main/css/bootstrap.css
+- 11:28:37.500 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:28:37.500 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:28:37.500 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:28:37.500 INFO: GET 200 /style.css
+- 11:28:37.500 INFO: GET 200 /
+- 11:28:37.546 INFO: GET 200 /main/img/bg/4.png
+- 11:28:37.546 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:28:37.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53071/
+- 11:28:42.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53071/
+- 11:28:42.250 INFO: POST 200 /login.php
+- 11:28:42.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53071/login.php
+- 11:31:16.484 DEBUG: F5 pressed, reloading page
+- 11:31:16.640 DEBUG: F5 pressed, reloading page
+- 11:31:16.812 DEBUG: F5 pressed, reloading page
+- 11:31:16.921 DEBUG: F5 pressed, reloading page
+- 11:31:16.109 DEBUG: F5 pressed, reloading page
+- 11:31:17.890 DEBUG: WM_DESTROY
+- 11:31:17.890 DEBUG: RemoveBrowserWindow(): hwnd = 6292800
+- 11:31:17.890 INFO: Stopping Mongoose web server
+- 11:31:17.890 DEBUG: Mongoose webserver stopped immediately
+- 11:31:17.890 DEBUG: OnBeforeClose() hwnd=722536
+- 11:31:17.890 DEBUG: RemoveBrowserWindow(): hwnd = 722536
+- 11:31:17.890 DEBUG: GetBrowserWindow(): not found, hwnd = 722536
+- 11:31:17.890 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:31:17.890 DEBUG: Calling CefQuitMessageLoop()
+- 11:31:17.968 INFO: Ended application
+- 11:31:17.968 INFO: --------------------------------------------------------
+- 11:31:19.000 INFO: --------------------------------------------------------
+- 11:31:19.000 INFO: Started application
+- 11:31:19.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:31:19.000 INFO: Log level = DEBUG4
+- 11:31:19.000 INFO: Starting Mongoose 3.9c web server
+- 11:31:19.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:31:19.000 INFO: Index files: index.html,index.php
+- 11:31:19.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:31:19.000 INFO: CGI pattern: **.php$
+- 11:31:19.000 INFO: Hide files patterns: 
+- 11:31:19.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:31:19.000 INFO: Web server url: http://127.0.0.1:53083/
+- 11:31:19.015 INFO: remote_debugging_port = 49479
+- 11:31:19.015 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=49479
+- 11:31:19.047 DEBUG: App::OnContextInitialized()
+- 11:31:19.047 DEBUG: Window max width/height = 1286/680
+- 11:31:19.047 DEBUG: GetBrowserWindow(): not found, hwnd = 9896860
+- 11:31:19.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:31:19.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:31:19.047 DEBUG: StoreBrowserWindow(): hwnd = 9896860
+- 11:31:19.000 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=0BB652EE0A98BD7E52F370AE86D9F299 --mojo-platform-channel-handle=1780 /prefetch:2
+- 11:31:19.109 DEBUG: ClientHandler::OnAfterCreated()
+- 11:31:19.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:31:19.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:31:19.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=89F149F51CF57EC570D064ED820B99F9 --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=89F149F51CF57EC570D064ED820B99F9 --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+[0831/113119.456:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:31:19.094 DEBUG: OnBrowserCreated()
+- 11:31:20.453 INFO: GET 200 /main/css/bootstrap.css
+- 11:31:20.453 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:31:20.453 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:31:20.453 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:31:20.453 INFO: GET 200 /style.css
+- 11:31:20.453 INFO: GET 200 /
+- 11:31:20.468 INFO: GET 200 /main/img/bg/4.png
+- 11:31:20.468 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:31:20.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53083/
+- 11:31:26.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53083/
+- 11:31:27.047 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:53083/login.php
+- 11:31:27.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53083/
+- 11:31:27.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53083/
+- 11:31:27.422 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:53083/login.php
+- 11:31:27.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53083/
+- 11:31:27.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53083/
+- 11:31:27.578 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:53083/login.php
+- 11:31:27.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53083/
+- 11:31:27.593 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53083/
+- 11:31:28.765 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:53083/login.php
+- 11:31:28.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53083/
+- 11:31:28.765 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53083/
+- 11:31:28.906 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:53083/login.php
+- 11:31:28.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53083/
+- 11:31:28.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53083/
+- 11:31:28.078 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:53083/login.php
+- 11:31:28.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53083/
+- 11:31:28.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53083/
+- 11:32:10.422 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:53083/login.php
+- 11:32:10.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53083/
+- 11:32:10.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53083/
+- 11:32:11.750 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:53083/login.php
+- 11:32:11.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53083/
+- 11:32:11.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53083/
+- 11:32:22.922 DEBUG: WM_DESTROY
+- 11:32:22.922 DEBUG: RemoveBrowserWindow(): hwnd = 9896860
+- 11:32:22.922 INFO: Stopping Mongoose web server
+- 11:32:22.922 DEBUG: Mongoose webserver stopped immediately
+- 11:32:22.922 DEBUG: OnBeforeClose() hwnd=12058712
+- 11:32:22.922 DEBUG: RemoveBrowserWindow(): hwnd = 12058712
+- 11:32:22.922 DEBUG: GetBrowserWindow(): not found, hwnd = 12058712
+- 11:32:22.922 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:32:22.922 DEBUG: Calling CefQuitMessageLoop()
+- 11:32:22.968 INFO: Ended application
+- 11:32:22.968 INFO: --------------------------------------------------------
+- 11:32:23.000 INFO: --------------------------------------------------------
+- 11:32:23.000 INFO: Started application
+- 11:32:23.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:32:23.000 INFO: Log level = DEBUG4
+- 11:32:23.000 INFO: Starting Mongoose 3.9c web server
+- 11:32:23.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:32:23.000 INFO: Index files: index.html,index.php
+- 11:32:23.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:32:23.000 INFO: CGI pattern: **.php$
+- 11:32:23.000 INFO: Hide files patterns: 
+- 11:32:23.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:32:23.000 INFO: Web server url: http://127.0.0.1:53101/
+- 11:32:23.000 INFO: remote_debugging_port = 58292
+- 11:32:23.000 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=58292
+- 11:32:23.047 DEBUG: App::OnContextInitialized()
+- 11:32:23.047 DEBUG: Window max width/height = 1286/680
+- 11:32:23.047 DEBUG: GetBrowserWindow(): not found, hwnd = 4326726
+- 11:32:23.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:32:23.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:32:23.047 DEBUG: StoreBrowserWindow(): hwnd = 4326726
+- 11:32:23.110 DEBUG: ClientHandler::OnAfterCreated()
+- 11:32:23.110 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:32:23.016 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=DC030FC7FDBC87020538C6076BF656D1 --mojo-platform-channel-handle=1780 /prefetch:2
+- 11:32:23.125 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:32:23.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=8F1F906B5E5609C3BF0BA7412021D486 --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=8F1F906B5E5609C3BF0BA7412021D486 --renderer-client-id=3 --mojo-platform-channel-handle=2412 /prefetch:1
+[0831/113223.888:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:32:23.094 DEBUG: OnBrowserCreated()
+- 11:32:25.516 INFO: GET 200 /main/css/bootstrap.css
+- 11:32:25.516 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:32:25.516 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:32:25.516 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:32:25.516 INFO: GET 200 /style.css
+- 11:32:25.547 INFO: GET 200 /main/img/bg/4.png
+- 11:32:25.547 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:32:25.563 INFO: GET 200 /
+- 11:32:25.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53101/
+- 11:32:30.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53101/
+- 11:32:30.453 INFO: POST 200 /login.php
+- 11:32:30.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53101/login.php
+- 11:32:36.750 DEBUG: WM_DESTROY
+- 11:32:36.750 DEBUG: RemoveBrowserWindow(): hwnd = 4326726
+- 11:32:36.750 INFO: Stopping Mongoose web server
+- 11:32:36.750 DEBUG: Mongoose webserver stopped immediately
+- 11:32:36.750 DEBUG: OnBeforeClose() hwnd=5768368
+- 11:32:36.750 DEBUG: RemoveBrowserWindow(): hwnd = 5768368
+- 11:32:36.750 DEBUG: GetBrowserWindow(): not found, hwnd = 5768368
+- 11:32:36.750 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:32:36.750 DEBUG: Calling CefQuitMessageLoop()
+- 11:32:36.781 INFO: Ended application
+- 11:32:36.781 INFO: --------------------------------------------------------
+- 11:33:44.000 INFO: --------------------------------------------------------
+- 11:33:44.000 INFO: Started application
+- 11:33:44.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:33:44.000 INFO: Log level = DEBUG4
+- 11:33:44.000 INFO: Starting Mongoose 3.9c web server
+- 11:33:44.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:33:44.000 INFO: Index files: index.html,index.php
+- 11:33:44.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:33:44.000 INFO: CGI pattern: **.php$
+- 11:33:44.000 INFO: Hide files patterns: 
+- 11:33:44.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:33:44.000 INFO: Web server url: http://127.0.0.1:53114/
+- 11:33:44.000 INFO: remote_debugging_port = 50435
+- 11:33:44.000 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=50435
+- 11:33:44.047 DEBUG: App::OnContextInitialized()
+- 11:33:44.047 DEBUG: Window max width/height = 1286/680
+- 11:33:44.047 DEBUG: GetBrowserWindow(): not found, hwnd = 3409426
+- 11:33:44.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:33:44.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:33:44.047 DEBUG: StoreBrowserWindow(): hwnd = 3409426
+- 11:33:44.031 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=12EA42639E247E08BAA9EA3092F87EE6 --mojo-platform-channel-handle=1764 /prefetch:2
+- 11:33:44.125 DEBUG: ClientHandler::OnAfterCreated()
+- 11:33:44.141 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:33:44.157 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:33:44.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=2B7874624DBFACFCA1CA36CB13D1EA75 --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=2B7874624DBFACFCA1CA36CB13D1EA75 --renderer-client-id=3 --mojo-platform-channel-handle=2400 /prefetch:1
+[0831/113344.304:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:33:44.062 DEBUG: OnBrowserCreated()
+- 11:33:45.469 INFO: GET 200 /main/css/bootstrap.css
+- 11:33:45.469 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:33:45.469 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:33:45.469 INFO: GET 200 /style.css
+- 11:33:45.469 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:33:45.485 INFO: GET 200 /
+- 11:33:45.500 INFO: GET 200 /main/img/bg/4.png
+- 11:33:45.500 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:33:45.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53114/
+- 11:33:48.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53114/
+- 11:33:48.063 INFO: POST 200 /login.php
+- 11:33:48.079 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53114/login.php
+- 11:40:07.000 DEBUG: WM_DESTROY
+- 11:40:07.000 DEBUG: RemoveBrowserWindow(): hwnd = 3409426
+- 11:40:07.000 INFO: Stopping Mongoose web server
+- 11:40:07.000 DEBUG: Mongoose webserver stopped immediately
+- 11:40:07.000 DEBUG: OnBeforeClose() hwnd=919302
+- 11:40:07.000 DEBUG: RemoveBrowserWindow(): hwnd = 919302
+- 11:40:07.000 DEBUG: GetBrowserWindow(): not found, hwnd = 919302
+- 11:40:07.000 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:40:07.000 DEBUG: Calling CefQuitMessageLoop()
+- 11:40:07.079 INFO: Ended application
+- 11:40:07.079 INFO: --------------------------------------------------------
+- 11:40:14.000 INFO: --------------------------------------------------------
+- 11:40:14.000 INFO: Started application
+- 11:40:14.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:40:14.000 INFO: Log level = DEBUG4
+- 11:40:14.000 INFO: Starting Mongoose 3.9c web server
+- 11:40:14.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:40:14.000 INFO: Index files: index.html,index.php
+- 11:40:14.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:40:14.000 INFO: CGI pattern: **.php$
+- 11:40:14.000 INFO: Hide files patterns: 
+- 11:40:14.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:40:14.015 INFO: Web server url: http://127.0.0.1:53159/
+- 11:40:14.015 INFO: remote_debugging_port = 53006
+- 11:40:14.015 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=53006
+- 11:40:14.047 DEBUG: App::OnContextInitialized()
+- 11:40:14.047 DEBUG: Window max width/height = 1286/680
+- 11:40:14.047 DEBUG: GetBrowserWindow(): not found, hwnd = 4064628
+- 11:40:14.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:40:14.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:40:14.047 DEBUG: StoreBrowserWindow(): hwnd = 4064628
+- 11:40:14.015 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=8D4B2D9933CE3BF36974C5330982513E --mojo-platform-channel-handle=1772 /prefetch:2
+- 11:40:14.109 DEBUG: ClientHandler::OnAfterCreated()
+- 11:40:14.109 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:40:14.140 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:40:14.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=72DD1910F240E18BA4DF060C86717F55 --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=72DD1910F240E18BA4DF060C86717F55 --renderer-client-id=3 --mojo-platform-channel-handle=2408 /prefetch:1
+[0831/114014.789:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:40:14.094 DEBUG: OnBrowserCreated()
+- 11:40:16.453 INFO: GET 200 /main/css/bootstrap.css
+- 11:40:16.469 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:40:16.469 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:40:16.469 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:40:16.469 INFO: GET 200 /style.css
+- 11:40:16.469 INFO: GET 200 /
+- 11:40:16.484 INFO: GET 200 /main/img/bg/4.png
+- 11:40:16.484 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:40:16.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53159/
+- 11:40:22.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53159/
+- 11:40:22.125 INFO: POST 302 /login.php
+- 11:40:22.078 DEBUG: OnContextCreated()
+- 11:40:22.265 INFO: GET 200 /main/lib/jquery.js
+- 11:40:22.281 INFO: GET 200 /main/src/facebox.css
+- 11:40:22.281 INFO: GET 200 /main/index.php
+- 11:40:22.281 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 11:40:22.297 INFO: GET 200 /main/src/facebox.js
+- 11:40:22.312 INFO: GET 200 /main/vendors/chosen.min.css
+- 11:40:22.312 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 11:40:22.312 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 11:40:22.328 INFO: GET 200 /main/js/bootstrap-modal.js
+- 11:40:22.344 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 11:40:22.344 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 11:40:22.359 INFO: GET 200 /main/js/bootstrap-alert.js
+- 11:40:22.359 INFO: GET 200 /main/js/bootstrap-transition.js
+- 11:40:22.375 INFO: GET 200 /main/js/bootstrap-tab.js
+- 11:40:22.390 INFO: GET 200 /main/js/bootstrap-button.js
+- 11:40:22.390 INFO: GET 200 /main/js/bootstrap-popover.js
+- 11:40:22.406 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 11:40:22.406 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 11:40:22.406 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 11:40:22.422 INFO: GET 200 /main/js/DT_bootstrap.js
+- 11:40:22.422 INFO: GET 200 /main/js/bootstrap.js
+- 11:40:23.437 INFO: GET 200 /main/js/jquery.dataTables.js
+[0831/114023.088:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53159/main/js/bootstrap-scrollspy.js (144)
+[0831/114023.101:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53159/main/js/bootstrap.js (1483)
+[0831/114023.119:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53159/main/js/bootstrap-alert.js (87)
+[0831/114023.123:INFO:CONSOLE(55)] "Uncaught TypeError: Cannot read property 'face' of undefined", source: http://127.0.0.1:53159/main/index.php (55)
+- 11:40:23.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53159/main/index.php
+- 11:42:36.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53159/main/index.php
+- 11:42:36.000 DEBUG: OnContextCreated()
+- 11:42:36.187 INFO: GET 200 /index.php
+- 11:42:36.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53159/index.php
+- 11:42:46.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53159/index.php
+- 11:42:46.563 DEBUG: OnContextCreated()
+- 11:42:46.750 INFO: POST 200 /login.php
+- 11:42:46.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53159/login.php
+- 11:44:08.734 DEBUG: WM_DESTROY
+- 11:44:08.734 DEBUG: RemoveBrowserWindow(): hwnd = 4064628
+- 11:44:08.734 INFO: Stopping Mongoose web server
+- 11:44:08.734 DEBUG: Mongoose webserver stopped immediately
+- 11:44:08.750 DEBUG: OnBeforeClose() hwnd=1769650
+- 11:44:08.750 DEBUG: RemoveBrowserWindow(): hwnd = 1769650
+- 11:44:08.750 DEBUG: GetBrowserWindow(): not found, hwnd = 1769650
+- 11:44:08.750 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:44:08.750 DEBUG: Calling CefQuitMessageLoop()
+- 11:44:08.828 INFO: Ended application
+- 11:44:08.828 INFO: --------------------------------------------------------
+- 11:44:10.000 INFO: --------------------------------------------------------
+- 11:44:10.000 INFO: Started application
+- 11:44:10.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:44:10.000 INFO: Log level = DEBUG4
+- 11:44:10.000 INFO: Starting Mongoose 3.9c web server
+- 11:44:10.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:44:10.000 INFO: Index files: index.html,index.php
+- 11:44:10.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:44:10.000 INFO: CGI pattern: **.php$
+- 11:44:10.000 INFO: Hide files patterns: 
+- 11:44:10.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:44:10.000 INFO: Web server url: http://127.0.0.1:53200/
+- 11:44:10.000 INFO: remote_debugging_port = 64254
+- 11:44:10.000 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=64254
+- 11:44:10.047 DEBUG: App::OnContextInitialized()
+- 11:44:10.047 DEBUG: Window max width/height = 1286/680
+- 11:44:10.063 DEBUG: GetBrowserWindow(): not found, hwnd = 10159004
+- 11:44:10.063 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:44:10.063 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:44:10.063 DEBUG: StoreBrowserWindow(): hwnd = 10159004
+- 11:44:10.015 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=50497DACD8A7FE5850A7B4640B9D0F06 --mojo-platform-channel-handle=1772 /prefetch:2
+- 11:44:10.125 DEBUG: ClientHandler::OnAfterCreated()
+- 11:44:10.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:44:10.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:44:10.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=955E8F701BC64A04DD294A44827D6441 --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=955E8F701BC64A04DD294A44827D6441 --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+[0831/114410.438:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:44:10.094 DEBUG: OnBrowserCreated()
+- 11:44:11.438 INFO: GET 200 /main/css/bootstrap.css
+- 11:44:11.438 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:44:11.438 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:44:11.438 INFO: GET 200 /style.css
+- 11:44:11.438 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:44:11.469 INFO: GET 200 /
+- 11:44:11.469 INFO: GET 200 /main/img/bg/4.png
+- 11:44:11.485 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:44:11.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53200/
+- 11:44:20.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53200/
+- 11:44:20.907 INFO: POST 200 /login.php
+- 11:44:20.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53200/login.php
+- 11:45:07.797 DEBUG: WM_DESTROY
+- 11:45:07.797 DEBUG: RemoveBrowserWindow(): hwnd = 10159004
+- 11:45:07.797 INFO: Stopping Mongoose web server
+- 11:45:07.797 DEBUG: Mongoose webserver stopped immediately
+- 11:45:07.829 DEBUG: OnBeforeClose() hwnd=16974796
+- 11:45:07.829 DEBUG: RemoveBrowserWindow(): hwnd = 16974796
+- 11:45:07.829 DEBUG: GetBrowserWindow(): not found, hwnd = 16974796
+- 11:45:07.829 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:45:07.829 DEBUG: Calling CefQuitMessageLoop()
+- 11:45:07.703 DEBUG: OnBrowserDestroyed()
+- 11:45:07.891 INFO: Ended application
+- 11:45:07.891 INFO: --------------------------------------------------------
+- 11:45:09.000 INFO: --------------------------------------------------------
+- 11:45:09.000 INFO: Started application
+- 11:45:09.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:45:09.000 INFO: Log level = DEBUG4
+- 11:45:09.000 INFO: Starting Mongoose 3.9c web server
+- 11:45:09.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:45:09.000 INFO: Index files: index.html,index.php
+- 11:45:09.000 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:45:09.000 INFO: CGI pattern: **.php$
+- 11:45:09.000 INFO: Hide files patterns: 
+- 11:45:09.000 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:45:09.000 INFO: Web server url: http://127.0.0.1:53230/
+- 11:45:09.000 INFO: remote_debugging_port = 50827
+- 11:45:09.000 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=50827
+- 11:45:09.047 DEBUG: App::OnContextInitialized()
+- 11:45:09.047 DEBUG: Window max width/height = 1286/680
+- 11:45:09.047 DEBUG: GetBrowserWindow(): not found, hwnd = 17040332
+- 11:45:09.047 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:45:09.047 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:45:09.047 DEBUG: StoreBrowserWindow(): hwnd = 17040332
+- 11:45:09.016 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=104909FE536ED94DF085E7AE2E3CF85C --mojo-platform-channel-handle=1796 /prefetch:2
+- 11:45:09.141 DEBUG: ClientHandler::OnAfterCreated()
+- 11:45:09.141 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:45:09.156 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:45:09.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=142675A47131E71A356A6F80207D9CC9 --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=142675A47131E71A356A6F80207D9CC9 --renderer-client-id=3 --mojo-platform-channel-handle=2388 /prefetch:1
+[0831/114509.373:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:45:09.063 DEBUG: OnBrowserCreated()
+- 11:45:10.422 INFO: GET 200 /main/css/bootstrap.css
+- 11:45:10.422 INFO: GET 200 /main/css/DT_bootstrap.css
+- 11:45:10.422 INFO: GET 200 /style.css
+- 11:45:10.422 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 11:45:10.422 INFO: GET 200 /main/css/font-awesome.min.css
+- 11:45:10.422 INFO: GET 200 /
+- 11:45:10.437 INFO: GET 200 /main/img/bg/4.png
+- 11:45:10.437 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 11:45:10.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53230/
+- 11:45:16.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53230/
+- 11:45:17.906 INFO: POST 200 /login.php
+- 11:45:17.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53230/login.php
+- 11:46:14.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53230/login.php
+- 11:46:14.156 INFO: GET 200 /
+- 11:46:14.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53230/
+- 11:46:18.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53230/
+- 11:46:18.359 INFO: POST 200 /login.php
+- 11:46:18.375 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53230/login.php
+- 11:50:17.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53230/login.php
+- 11:50:17.234 INFO: GET 200 /
+- 11:50:17.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53230/
+- 11:50:20.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53230/
+- 11:50:20.703 INFO: POST 200 /login.php
+- 11:50:20.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53230/login.php
+- 11:50:31.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53230/login.php
+- 11:50:31.453 INFO: GET 200 /
+- 11:50:31.484 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53230/
+- 11:50:33.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53230/
+- 11:50:33.391 INFO: POST 200 /login.php
+- 11:50:33.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53230/login.php
+- 12:11:06.422 DEBUG: WM_DESTROY
+- 12:11:08.375 DEBUG: RemoveBrowserWindow(): hwnd = 17040332
+- 12:11:08.375 INFO: Stopping Mongoose web server
+- 12:11:08.375 DEBUG: Mongoose webserver stopped immediately
+- 12:11:08.375 DEBUG: OnBeforeClose() hwnd=8848424
+- 12:11:08.375 DEBUG: RemoveBrowserWindow(): hwnd = 8848424
+- 12:11:08.375 DEBUG: GetBrowserWindow(): not found, hwnd = 8848424
+- 12:11:08.375 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:11:08.375 DEBUG: Calling CefQuitMessageLoop()
+- 12:11:08.250 DEBUG: OnBrowserDestroyed()
+- 12:11:08.484 INFO: Ended application
+- 12:11:08.484 INFO: --------------------------------------------------------
+- 12:11:18.015 INFO: --------------------------------------------------------
+- 12:11:18.015 INFO: Started application
+- 12:11:18.015 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 12:11:18.015 INFO: Log level = DEBUG4
+- 12:11:18.015 INFO: Starting Mongoose 3.9c web server
+- 12:11:18.015 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 12:11:18.015 INFO: Index files: index.html,index.php
+- 12:11:18.015 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 12:11:18.015 INFO: CGI pattern: **.php$
+- 12:11:18.015 INFO: Hide files patterns: 
+- 12:11:18.015 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 12:11:18.015 INFO: Web server url: http://127.0.0.1:53516/
+- 12:11:18.015 INFO: remote_debugging_port = 63934
+- 12:11:18.015 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=63934
+- 12:11:18.078 DEBUG: App::OnContextInitialized()
+- 12:11:18.078 DEBUG: Window max width/height = 1286/680
+- 12:11:18.078 DEBUG: GetBrowserWindow(): not found, hwnd = 4522958
+- 12:11:18.078 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:11:18.078 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:11:18.078 DEBUG: StoreBrowserWindow(): hwnd = 4522958
+- 12:11:19.000 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=2DEF41FA821EFC87664941ED5F873A5C --mojo-platform-channel-handle=1772 /prefetch:2
+- 12:11:19.203 DEBUG: ClientHandler::OnAfterCreated()
+- 12:11:19.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:11:19.218 DEBUG: OnLoadingStateChange: loading=1, url=
+[0831/121119.140:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 12:11:19.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=5F1E94F1F75FD3F740C79730DFEF6D2C --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=5F1E94F1F75FD3F740C79730DFEF6D2C --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+- 12:11:19.078 DEBUG: OnBrowserCreated()
+- 12:11:23.828 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:11:23.828 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:11:23.828 INFO: GET 200 /main/css/bootstrap.css
+- 12:11:23.828 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:11:23.828 INFO: GET 200 /style.css
+- 12:11:23.828 INFO: GET 200 /
+- 12:11:23.890 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 12:11:23.890 INFO: GET 200 /main/img/bg/4.png
+- 12:11:23.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/
+- 12:11:29.000 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/
+- 12:11:29.125 INFO: POST 302 /login.php
+- 12:11:30.218 INFO: GET 200 /main/index.php
+- 12:11:30.218 INFO: GET 200 /main/src/facebox.css
+- 12:11:30.218 INFO: GET 200 /main/lib/jquery.js
+- 12:11:30.218 INFO: GET 200 /main/src/facebox.js
+- 12:11:30.984 DEBUG: OnContextCreated()
+- 12:11:30.312 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:11:30.312 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:11:30.312 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:11:30.312 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:11:30.328 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:11:30.328 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:11:30.328 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:11:30.328 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:11:30.328 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:11:30.328 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:11:30.328 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:11:30.328 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:11:30.343 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:11:30.343 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:11:30.343 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:11:30.343 INFO: GET 200 /main/js/bootstrap.js
+- 12:11:30.343 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:11:30.359 INFO: GET 200 /main/js/jquery.dataTables.js
+[0831/121130.367:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-scrollspy.js (144)
+[0831/121130.376:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap.js (1483)
+[0831/121130.405:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-alert.js (87)
+- 12:11:30.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/index.php
+- 12:11:32.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/index.php
+- 12:11:32.218 DEBUG: OnContextCreated()
+- 12:11:32.531 INFO: GET 200 /main/products.php
+- 12:11:32.547 INFO: GET 200 /main/js/application.js
+- 12:11:32.578 INFO: GET 200 /main/jeffartagame.js
+- 12:11:32.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/products.php
+- 12:11:33.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/products.php
+- 12:11:33.750 DEBUG: OnContextCreated()
+- 12:11:33.062 INFO: GET 200 /main/customer.php
+- 12:11:33.109 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/customer.php
+- 12:11:34.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/customer.php
+- 12:11:34.359 DEBUG: OnContextCreated()
+- 12:11:34.656 INFO: GET 200 /main/customer.php
+- 12:11:34.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/customer.php
+- 12:11:34.922 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/customer.php
+- 12:11:35.500 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:53516/main/supplier.php
+- 12:11:35.500 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/customer.php
+- 12:11:35.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/customer.php
+- 12:11:35.328 DEBUG: OnContextCreated()
+- 12:11:35.640 INFO: GET 200 /main/customer.php
+- 12:11:35.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/customer.php
+- 12:11:35.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/customer.php
+- 12:11:35.656 DEBUG: OnContextCreated()
+- 12:11:35.968 INFO: GET 200 /main/products.php
+- 12:11:35.984 INFO: GET 200 /main/supplier.php
+- 12:11:35.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/products.php
+- 12:14:10.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/products.php
+- 12:14:10.640 DEBUG: OnContextCreated()
+- 12:14:10.937 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:14:10.937 INFO: GET 200 /main/css/bootstrap.css
+- 12:14:10.937 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:14:10.937 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:14:10.937 INFO: GET 200 /style.css
+- 12:14:10.953 INFO: GET 200 /main/src/facebox.css
+- 12:14:10.953 INFO: GET 200 /main/js/application.js
+- 12:14:10.953 INFO: GET 200 /main/jeffartagame.js
+- 12:14:10.953 INFO: GET 200 /main/src/facebox.js
+- 12:14:10.953 INFO: GET 200 /main/lib/jquery.js
+- 12:14:10.953 INFO: GET 200 /main/products.php
+- 12:14:10.078 INFO: GET 200 /main/img/bg/4.png
+- 12:14:10.125 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 12:14:10.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/products.php
+- 12:14:22.968 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/products.php
+- 12:14:23.875 DEBUG: OnContextCreated()
+- 12:14:23.203 INFO: GET 200 /main/sales.php?id=cash&invoice=RS-32833
+- 12:14:23.218 INFO: GET 200 /main/vendors/uniform.default.css
+- 12:14:23.218 INFO: GET 200 /main/vendors/bootstrap.js
+- 12:14:23.437 INFO: GET 200 /main/vendors/jquery-1.7.2.min.js
+- 12:14:23.593 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/sales.php?id=cash&invoice=RS-32833
+- 12:14:24.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/sales.php?id=cash&invoice=RS-32833
+- 12:14:24.203 DEBUG: OnContextCreated()
+- 12:14:24.500 INFO: GET 200 /main/products.php
+- 12:14:24.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/products.php
+- 12:14:25.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/products.php
+- 12:14:25.078 DEBUG: OnContextCreated()
+- 12:14:25.375 INFO: GET 200 /main/customer.php
+- 12:14:25.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/customer.php
+- 12:14:26.218 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/customer.php
+- 12:14:26.984 DEBUG: OnContextCreated()
+- 12:14:26.297 INFO: GET 200 /main/supplier.php
+- 12:14:26.312 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/supplier.php
+- 12:14:27.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/supplier.php
+- 12:14:27.234 DEBUG: OnContextCreated()
+- 12:14:27.547 INFO: GET 200 /main/salesreport.php?d1=0&d2=0
+- 12:14:27.562 INFO: GET 200 /main/tcal.css
+- 12:14:27.593 INFO: GET 200 /main/tcal.js
+- 12:14:27.640 INFO: GET 200 /main/img/cal.gif
+- 12:14:27.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/salesreport.php?d1=0&d2=0
+- 12:14:29.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/salesreport.php?d1=0&d2=0
+- 12:14:29.953 DEBUG: OnContextCreated()
+- 12:14:29.250 INFO: GET 200 /main/products.php
+- 12:14:29.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/products.php
+- 12:14:29.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/products.php
+- 12:14:29.390 DEBUG: OnContextCreated()
+- 12:14:29.703 INFO: GET 200 /main/sales.php?id=cash&invoice=RS-30923329
+- 12:14:29.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/sales.php?id=cash&invoice=RS-30923329
+- 12:14:29.968 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/sales.php?id=cash&invoice=RS-30923329
+- 12:14:29.047 INFO: GET 200 /main/index.php
+- 12:14:29.765 DEBUG: OnContextCreated()
+[0831/121429.925:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-scrollspy.js (144)
+[0831/121429.943:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap.js (1483)
+[0831/121429.972:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-alert.js (87)
+- 12:14:29.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/index.php
+- 12:16:57.859 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/index.php
+- 12:16:57.640 DEBUG: OnContextCreated()
+- 12:16:57.937 INFO: GET 200 /main/css/bootstrap.css
+- 12:16:57.937 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:16:57.937 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:16:57.937 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:16:57.937 INFO: GET 200 /style.css
+- 12:16:57.953 INFO: GET 200 /main/index.php
+- 12:16:57.953 INFO: GET 200 /main/src/facebox.js
+- 12:16:57.953 INFO: GET 200 /main/src/facebox.css
+- 12:16:57.953 INFO: GET 200 /main/lib/jquery.js
+- 12:16:57.000 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:16:57.000 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:16:57.000 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:16:57.000 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:16:57.000 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:16:57.000 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:16:57.031 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:16:57.031 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 12:16:57.031 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:16:57.031 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:16:57.031 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:16:57.031 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:16:57.156 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:16:57.156 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:16:57.156 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:16:57.156 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:16:57.156 INFO: GET 200 /main/js/bootstrap.js
+- 12:16:57.156 INFO: GET 200 /main/js/jquery.dataTables.js
+[0831/121658.003:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-scrollspy.js (144)
+- 12:16:58.172 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:16:58.172 INFO: GET 200 /main/img/bg/4.png
+[0831/121658.065:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap.js (1483)
+[0831/121658.121:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-alert.js (87)
+- 12:16:58.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/index.php
+- 12:17:07.765 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/index.php
+- 12:17:07.531 DEBUG: OnContextCreated()
+- 12:17:07.828 INFO: GET 200 /main/sales.php?id=cash&invoice=RS-590925
+- 12:17:07.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/sales.php?id=cash&invoice=RS-590925
+- 12:17:08.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/sales.php?id=cash&invoice=RS-590925
+- 12:17:08.718 DEBUG: OnContextCreated()
+- 12:17:08.015 INFO: GET 200 /main/products.php
+- 12:17:08.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/products.php
+- 12:17:09.640 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/products.php
+- 12:17:09.406 DEBUG: OnContextCreated()
+- 12:17:09.703 INFO: GET 200 /main/customer.php
+- 12:17:09.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/customer.php
+- 12:17:10.203 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/customer.php
+- 12:17:10.984 DEBUG: OnContextCreated()
+- 12:17:10.281 INFO: GET 200 /main/index.php
+[0831/121710.180:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-scrollspy.js (144)
+[0831/121710.188:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap.js (1483)
+[0831/121710.210:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-alert.js (87)
+- 12:17:10.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/index.php
+- 12:18:04.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/index.php
+- 12:18:04.390 DEBUG: OnContextCreated()
+- 12:18:04.687 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:18:04.687 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:18:04.687 INFO: GET 200 /main/css/bootstrap.css
+- 12:18:04.687 INFO: GET 200 /style.css
+- 12:18:04.687 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:18:04.687 INFO: GET 200 /main/index.php
+- 12:18:04.703 INFO: GET 200 /main/src/facebox.css
+- 12:18:04.703 INFO: GET 200 /main/src/facebox.js
+- 12:18:04.703 INFO: GET 200 /main/lib/jquery.js
+- 12:18:04.703 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:18:04.703 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:18:04.703 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:18:04.703 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:18:04.703 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:18:04.718 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:18:04.718 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:18:04.718 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:18:04.734 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:18:04.734 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:18:04.734 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:18:04.750 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:18:04.765 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:18:04.765 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 12:18:04.765 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:18:04.765 INFO: GET 200 /main/js/bootstrap.js
+- 12:18:04.765 INFO: GET 200 /main/js/bootstrap-collapse.js
+[0831/121804.609:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-scrollspy.js (144)
+- 12:18:04.781 INFO: GET 200 /main/js/jquery.dataTables.js
+- 12:18:04.812 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:18:04.812 INFO: GET 200 /main/img/bg/4.png
+[0831/121804.677:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap.js (1483)
+[0831/121804.734:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-alert.js (87)
+- 12:18:04.890 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/index.php
+- 12:18:05.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/index.php
+- 12:18:06.921 DEBUG: OnContextCreated()
+- 12:18:06.234 INFO: GET 200 /main/css/bootstrap.css
+- 12:18:06.234 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:18:06.234 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:18:06.234 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:18:06.234 INFO: GET 200 /style.css
+- 12:18:06.234 INFO: GET 200 /main/index.php
+- 12:18:06.234 INFO: GET 200 /main/src/facebox.css
+- 12:18:06.234 INFO: GET 200 /main/src/facebox.js
+- 12:18:06.234 INFO: GET 200 /main/lib/jquery.js
+- 12:18:06.265 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:18:06.265 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:18:06.265 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:18:06.265 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:18:06.265 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:18:06.265 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:18:06.265 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:18:06.265 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:18:06.265 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:18:06.265 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:18:06.265 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:18:06.265 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:18:06.297 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:18:06.297 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 12:18:06.297 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:18:06.312 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:18:06.312 INFO: GET 200 /main/js/bootstrap.js
+- 12:18:06.312 INFO: GET 200 /main/js/jquery.dataTables.js
+[0831/121806.155:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-scrollspy.js (144)
+- 12:18:06.343 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:18:06.343 INFO: GET 200 /main/img/bg/4.png
+[0831/121806.231:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap.js (1483)
+[0831/121806.308:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-alert.js (87)
+- 12:18:06.468 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/index.php
+- 12:18:07.562 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/index.php
+- 12:18:07.359 DEBUG: OnContextCreated()
+- 12:18:07.672 INFO: GET 200 /main/css/bootstrap.css
+- 12:18:07.672 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:18:07.672 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:18:07.672 INFO: GET 200 /style.css
+- 12:18:07.672 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:18:07.672 INFO: GET 200 /main/index.php
+- 12:18:07.672 INFO: GET 200 /main/src/facebox.css
+- 12:18:07.672 INFO: GET 200 /main/src/facebox.js
+- 12:18:07.672 INFO: GET 200 /main/lib/jquery.js
+- 12:18:07.687 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:18:07.687 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:18:07.687 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:18:07.718 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:18:07.718 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:18:07.718 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:18:07.718 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:18:07.765 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:18:07.765 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:18:07.781 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:18:07.781 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:18:07.781 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 12:18:07.781 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:18:07.812 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:18:07.812 INFO: GET 200 /main/js/bootstrap-carousel.js
+[0831/121807.654:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-scrollspy.js (144)
+- 12:18:07.812 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:18:07.812 INFO: GET 200 /main/js/bootstrap.js
+- 12:18:07.812 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:18:07.812 INFO: GET 200 /main/img/bg/4.png
+- 12:18:07.812 INFO: GET 200 /main/js/jquery.dataTables.js
+[0831/121807.691:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap.js (1483)
+[0831/121807.754:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-alert.js (87)
+- 12:18:07.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/index.php
+- 12:18:14.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/index.php
+- 12:18:14.609 DEBUG: OnContextCreated()
+- 12:18:14.906 INFO: GET 200 /main/css/bootstrap.css
+- 12:18:14.906 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:18:14.906 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:18:14.906 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:18:14.906 INFO: GET 200 /style.css
+- 12:18:14.906 INFO: GET 200 /main/index.php
+- 12:18:14.922 INFO: GET 200 /main/src/facebox.css
+- 12:18:14.922 INFO: GET 200 /main/lib/jquery.js
+- 12:18:14.922 INFO: GET 200 /main/src/facebox.js
+- 12:18:14.922 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:18:14.922 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:18:14.922 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:18:14.937 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:18:14.937 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:18:14.937 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:18:14.937 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:18:14.937 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:18:14.968 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:18:14.984 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:18:14.984 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:18:14.984 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:18:14.984 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:18:14.984 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:18:14.984 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:18:14.984 INFO: GET 200 /main/js/bootstrap.js
+- 12:18:14.984 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:18:14.984 INFO: GET 200 /main/js/jquery.dataTables.js
+- 12:18:14.000 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 12:18:14.000 INFO: GET 200 /main/img/bg/4.png
+[0831/121814.856:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-scrollspy.js (144)
+[0831/121814.884:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap.js (1483)
+[0831/121814.962:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-alert.js (87)
+- 12:18:14.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/index.php
+- 12:18:24.890 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/index.php
+- 12:18:24.671 DEBUG: OnContextCreated()
+- 12:18:24.968 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:18:24.968 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:18:24.968 INFO: GET 200 /main/css/bootstrap.css
+- 12:18:24.968 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:18:24.968 INFO: GET 200 /style.css
+- 12:18:24.968 INFO: GET 200 /main/index.php
+- 12:18:24.968 INFO: GET 200 /main/src/facebox.css
+- 12:18:24.968 INFO: GET 200 /main/lib/jquery.js
+- 12:18:24.968 INFO: GET 200 /main/src/facebox.js
+- 12:18:24.984 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:18:24.984 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:18:24.984 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:18:24.984 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:18:24.984 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:18:24.984 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:18:24.000 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:18:24.000 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:18:24.000 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:18:24.000 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:18:24.000 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:18:24.031 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:18:24.031 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:18:24.031 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:18:24.031 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 12:18:24.031 INFO: GET 200 /main/js/bootstrap-typeahead.js
+[0831/121824.888:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-scrollspy.js (144)
+- 12:18:24.062 INFO: GET 200 /main/js/bootstrap.js
+- 12:18:24.062 INFO: GET 200 /main/js/jquery.dataTables.js
+- 12:18:24.093 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:18:24.093 INFO: GET 200 /main/img/bg/4.png
+[0831/121824.964:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap.js (1483)
+[0831/121825.016:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-alert.js (87)
+- 12:18:25.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/index.php
+- 12:18:26.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/index.php
+- 12:18:26.062 DEBUG: OnContextCreated()
+- 12:18:26.359 INFO: GET 200 /main/css/bootstrap.css
+- 12:18:26.359 INFO: GET 200 /main/index.php
+- 12:18:26.359 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:18:26.359 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:18:26.359 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:18:26.359 INFO: GET 200 /style.css
+- 12:18:26.359 INFO: GET 200 /main/src/facebox.css
+- 12:18:26.375 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:18:26.375 INFO: GET 200 /main/src/facebox.js
+- 12:18:26.375 INFO: GET 200 /main/lib/jquery.js
+- 12:18:26.375 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:18:26.406 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:18:26.406 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:18:26.437 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:18:26.437 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:18:26.437 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:18:26.437 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:18:26.468 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:18:26.468 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:18:26.468 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:18:26.468 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:18:26.468 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:18:26.468 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:18:26.468 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:18:26.468 INFO: GET 200 /main/js/bootstrap.js
+[0831/121826.349:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-scrollspy.js (144)
+- 12:18:26.500 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:18:26.500 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 12:18:26.500 INFO: GET 200 /main/js/jquery.dataTables.js
+- 12:18:26.531 INFO: GET 200 /main/img/bg/4.png
+[0831/121826.416:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap.js (1483)
+[0831/121826.467:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53516/main/js/bootstrap-alert.js (87)
+- 12:18:26.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/main/index.php
+- 12:18:38.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/main/index.php
+- 12:18:38.390 DEBUG: OnContextCreated()
+- 12:18:38.687 INFO: GET 200 /index.php
+- 12:18:38.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/index.php
+- 12:18:45.984 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/index.php
+- 12:18:45.781 DEBUG: OnContextCreated()
+- 12:18:45.078 INFO: POST 200 /login.php
+- 12:18:45.093 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/login.php
+- 12:19:15.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/login.php
+- 12:19:15.062 DEBUG: OnContextCreated()
+- 12:19:15.359 INFO: GET 200 /index.php
+- 12:19:15.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/index.php
+- 12:19:18.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53516/index.php
+- 12:19:18.390 DEBUG: OnContextCreated()
+- 12:19:18.703 INFO: POST 200 /login.php
+- 12:19:18.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53516/login.php
+- 12:19:23.875 DEBUG: WM_DESTROY
+- 12:19:23.875 DEBUG: RemoveBrowserWindow(): hwnd = 4522958
+- 12:19:23.875 INFO: Stopping Mongoose web server
+- 12:19:23.875 DEBUG: Mongoose webserver stopped immediately
+- 12:19:23.875 DEBUG: OnBeforeClose() hwnd=8913960
+- 12:19:23.875 DEBUG: RemoveBrowserWindow(): hwnd = 8913960
+- 12:19:23.875 DEBUG: GetBrowserWindow(): not found, hwnd = 8913960
+- 12:19:23.875 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:19:23.875 DEBUG: Calling CefQuitMessageLoop()
+- 12:19:23.937 INFO: Ended application
+- 12:19:23.937 INFO: --------------------------------------------------------
+- 12:19:36.000 INFO: --------------------------------------------------------
+- 12:19:36.000 INFO: Started application
+- 12:19:36.000 INFO: Logging to: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 12:19:36.000 INFO: Log level = DEBUG4
+- 12:19:36.000 INFO: Starting Mongoose 3.9c web server
+- 12:19:36.000 INFO: WWW directory: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 12:19:36.000 INFO: Index files: index.html,index.php
+- 12:19:36.015 INFO: CGI interpreter: C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 12:19:36.015 INFO: CGI pattern: **.php$
+- 12:19:36.015 INFO: Hide files patterns: 
+- 12:19:36.015 INFO: CGI environment variables set: TMP=C:\Users\PC_N2\AppData\Local\Temp\,TEMP=C:\Users\PC_N2\AppData\Local\Temp\,TMPDIR=C:\Users\PC_N2\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 12:19:36.015 INFO: Web server url: http://127.0.0.1:53825/
+- 12:19:36.015 INFO: remote_debugging_port = 59787
+- 12:19:36.015 DEBUG: Command line string for the browser process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=59787
+- 12:19:36.047 DEBUG: App::OnContextInitialized()
+- 12:19:36.062 DEBUG: Window max width/height = 1286/680
+- 12:19:36.062 DEBUG: GetBrowserWindow(): not found, hwnd = 4588494
+- 12:19:36.062 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:19:36.062 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:19:36.062 DEBUG: StoreBrowserWindow(): hwnd = 4588494
+- 12:19:36.125 DEBUG: ClientHandler::OnAfterCreated()
+- 12:19:36.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:19:36.140 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:19:36.016 DEBUG: Command line string for the gpu-process process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x041e --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4624 --gpu-driver-date=3-8-2017 --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=39D1BF24329679054991633A56EC7F14 --mojo-platform-channel-handle=1772 /prefetch:2
+- 12:19:36.000 DEBUG: Command line string for the renderer process: "C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=55CE0ABAFF1994E3D3C25B4823D667D7 --lang=en-US --lang=en-US --log-file="C:\Users\PC_N2\Downloads\proto\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=55CE0ABAFF1994E3D3C25B4823D667D7 --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+[0831/121936.297:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 12:19:36.078 DEBUG: OnBrowserCreated()
+- 12:19:37.484 INFO: GET 200 /main/css/bootstrap.css
+- 12:19:37.484 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:19:37.484 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:19:37.484 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:19:37.484 INFO: GET 200 /style.css
+- 12:19:37.484 INFO: GET 200 /
+- 12:19:37.515 INFO: GET 200 /main/img/bg/4.png
+- 12:19:37.515 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 12:19:37.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/
+- 12:19:40.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/
+- 12:19:40.547 INFO: POST 200 /login.php
+- 12:19:40.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/login.php
+- 12:20:16.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/login.php
+- 12:20:16.203 INFO: GET 200 /
+- 12:20:16.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/
+- 12:20:18.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/
+- 12:20:18.750 INFO: POST 200 /login.php
+- 12:20:18.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/login.php
+- 12:20:45.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/login.php
+- 12:20:45.562 INFO: GET 200 /
+- 12:20:45.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/
+- 12:20:49.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/
+- 12:20:49.125 INFO: POST 302 /login.php
+- 12:20:49.203 INFO: GET 200 /main/src/facebox.css
+- 12:20:49.203 INFO: GET 200 /main/src/facebox.js
+- 12:20:49.203 INFO: GET 200 /main/lib/jquery.js
+- 12:20:49.219 INFO: GET 200 /main/index.php
+- 12:20:49.016 DEBUG: OnContextCreated()
+- 12:20:49.250 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:20:49.250 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:20:49.250 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:20:49.250 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:20:49.250 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:20:49.250 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:20:49.281 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:20:49.281 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:20:49.281 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:20:49.281 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:20:49.281 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:20:49.281 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:20:49.312 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:20:49.312 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:20:49.312 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:20:49.312 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:20:49.312 INFO: GET 200 /main/js/bootstrap.js
+- 12:20:49.312 INFO: GET 200 /main/js/jquery.dataTables.js
+[0831/122049.389:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+[0831/122049.438:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122049.500:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+- 12:20:49.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:22:19.344 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/index.php
+- 12:22:19.219 DEBUG: OnContextCreated()
+- 12:22:19.422 INFO: GET 200 /main/vendors/uniform.default.css
+- 12:22:19.422 INFO: GET 200 /main/vendors/jquery-1.7.2.min.js
+- 12:22:19.422 INFO: GET 200 /main/vendors/bootstrap.js
+- 12:22:19.422 INFO: GET 200 /main/sales.php?id=cash&invoice=RS-3333207
+- 12:22:19.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/sales.php?id=cash&invoice=RS-3333207
+- 12:22:40.312 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/sales.php?id=cash&invoice=RS-3333207
+- 12:22:40.187 DEBUG: OnContextCreated()
+- 12:22:40.390 INFO: GET 200 /main/lib/jquery.js
+- 12:22:40.390 INFO: GET 200 /main/src/facebox.css
+- 12:22:40.390 INFO: GET 200 /main/src/facebox.js
+- 12:22:40.390 INFO: GET 200 /main/sales.php?id=cash&invoice=RS-3333207
+- 12:22:40.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/sales.php?id=cash&invoice=RS-3333207
+- 12:22:49.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/sales.php?id=cash&invoice=RS-3333207
+- 12:22:49.328 DEBUG: OnContextCreated()
+- 12:22:49.531 INFO: GET 200 /main/src/facebox.css
+- 12:22:49.531 INFO: GET 200 /main/lib/jquery.js
+- 12:22:49.531 INFO: GET 200 /main/vendors/uniform.default.css
+- 12:22:49.531 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:22:49.531 INFO: GET 200 /main/css/bootstrap.css
+- 12:22:49.531 INFO: GET 200 /main/sales.php?id=cash&invoice=RS-3333207
+- 12:22:49.531 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:22:49.531 INFO: GET 200 /style.css
+- 12:22:49.531 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:22:49.531 INFO: GET 200 /main/src/facebox.js
+- 12:22:49.531 INFO: GET 200 /main/vendors/jquery-1.7.2.min.js
+- 12:22:49.531 INFO: GET 200 /main/vendors/bootstrap.js
+- 12:22:49.594 INFO: GET 200 /main/img/bg/4.png
+- 12:22:49.625 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 12:22:49.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/sales.php?id=cash&invoice=RS-3333207
+- 12:23:43.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/sales.php?id=cash&invoice=RS-3333207
+- 12:23:43.047 DEBUG: OnContextCreated()
+- 12:23:43.250 INFO: GET 200 /main/products.php
+- 12:23:43.250 INFO: GET 200 /main/js/application.js
+- 12:23:43.250 INFO: GET 200 /main/jeffartagame.js
+- 12:23:43.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/products.php
+- 12:23:43.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/products.php
+- 12:23:43.719 DEBUG: OnContextCreated()
+- 12:23:43.937 INFO: GET 200 /main/index.php
+[0831/122344.039:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+[0831/122344.062:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122344.087:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+- 12:23:44.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:24:17.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/index.php
+- 12:24:17.422 DEBUG: OnContextCreated()
+- 12:24:17.625 INFO: GET 200 /main/css/bootstrap.css
+- 12:24:17.625 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:24:17.625 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:24:17.625 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:24:17.625 INFO: GET 200 /style.css
+- 12:24:17.625 INFO: GET 200 /main/index.php
+- 12:24:17.625 INFO: GET 200 /main/src/facebox.css
+- 12:24:17.625 INFO: GET 200 /main/lib/jquery.js
+- 12:24:17.625 INFO: GET 200 /main/src/facebox.js
+- 12:24:17.640 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:24:17.640 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:24:17.640 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:24:17.640 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:24:17.640 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:24:17.640 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:24:17.656 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:24:17.656 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:24:17.656 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:24:17.656 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:24:17.656 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:24:17.656 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:24:17.656 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:24:17.656 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:24:17.656 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:24:17.656 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:24:17.656 INFO: GET 200 /main/js/bootstrap.js
+- 12:24:17.656 INFO: GET 200 /main/js/jquery.dataTables.js
+- 12:24:17.703 INFO: GET 200 /main/img/bg/4.png
+- 12:24:17.703 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+[0831/122417.767:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+[0831/122417.780:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122417.786:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+- 12:24:17.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:24:18.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/index.php
+- 12:24:18.672 DEBUG: OnContextCreated()
+- 12:24:18.875 INFO: GET 200 /main/index.php
+- 12:24:18.875 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:24:18.875 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:24:18.875 INFO: GET 200 /main/css/bootstrap.css
+- 12:24:18.875 INFO: GET 200 /style.css
+- 12:24:18.875 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:24:18.875 INFO: GET 200 /main/src/facebox.css
+- 12:24:18.890 INFO: GET 200 /main/src/facebox.js
+- 12:24:18.890 INFO: GET 200 /main/lib/jquery.js
+- 12:24:18.890 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:24:18.890 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:24:18.890 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:24:18.890 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:24:18.890 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:24:18.890 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:24:18.890 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:24:18.890 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:24:18.890 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:24:18.906 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:24:18.906 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:24:18.906 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:24:18.906 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:24:18.906 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:24:18.906 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:24:18.906 INFO: GET 200 /main/js/bootstrap.js
+- 12:24:18.922 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:24:18.922 INFO: GET 200 /main/js/jquery.dataTables.js
+- 12:24:19.969 INFO: GET 200 /main/img/bg/4.png
+- 12:24:19.969 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+[0831/122419.041:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+[0831/122419.045:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122419.059:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+- 12:24:19.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:24:20.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/index.php
+- 12:24:20.422 DEBUG: OnContextCreated()
+- 12:24:20.625 INFO: GET 200 /main/index.php
+- 12:24:20.625 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:24:20.625 INFO: GET 200 /main/css/bootstrap.css
+- 12:24:20.625 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:24:20.625 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:24:20.625 INFO: GET 200 /style.css
+- 12:24:20.625 INFO: GET 200 /main/src/facebox.css
+- 12:24:20.640 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:24:20.640 INFO: GET 200 /main/lib/jquery.js
+- 12:24:20.640 INFO: GET 200 /main/src/facebox.js
+- 12:24:20.640 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:24:20.640 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:24:20.640 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:24:20.640 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:24:20.640 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:24:20.640 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:24:20.640 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:24:20.640 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:24:20.640 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:24:20.656 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:24:20.656 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:24:20.656 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:24:20.656 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:24:20.656 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:24:20.656 INFO: GET 200 /main/js/bootstrap.js
+- 12:24:20.656 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:24:20.656 INFO: GET 200 /main/js/jquery.dataTables.js
+- 12:24:20.703 INFO: GET 200 /main/img/bg/4.png
+- 12:24:20.703 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+[0831/122420.771:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+[0831/122420.775:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122420.790:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+- 12:24:20.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:24:22.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/index.php
+- 12:24:22.281 DEBUG: OnContextCreated()
+- 12:24:22.484 INFO: GET 200 /main/css/bootstrap.css
+- 12:24:22.484 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:24:22.484 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:24:22.484 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:24:22.484 INFO: GET 200 /style.css
+- 12:24:22.500 INFO: GET 200 /main/index.php
+- 12:24:22.500 INFO: GET 200 /main/src/facebox.css
+- 12:24:22.500 INFO: GET 200 /main/lib/jquery.js
+- 12:24:22.500 INFO: GET 200 /main/src/facebox.js
+- 12:24:22.515 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:24:22.515 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:24:22.515 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:24:22.515 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:24:22.515 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:24:22.515 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:24:22.515 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:24:22.515 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:24:22.515 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:24:22.515 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:24:22.531 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:24:22.531 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:24:22.531 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:24:22.531 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:24:22.531 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:24:22.531 INFO: GET 200 /main/js/bootstrap.js
+- 12:24:22.531 INFO: GET 200 /main/js/jquery.dataTables.js
+- 12:24:22.531 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:24:22.562 INFO: GET 200 /main/img/bg/4.png
+- 12:24:22.562 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+[0831/122422.630:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+[0831/122422.635:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122422.685:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+- 12:24:22.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:24:30.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/index.php
+- 12:24:30.156 DEBUG: OnContextCreated()
+- 12:24:30.359 INFO: GET 200 /main/css/bootstrap.css
+- 12:24:30.359 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:24:30.359 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:24:30.359 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:24:30.359 INFO: GET 200 /style.css
+- 12:24:30.359 INFO: GET 200 /main/index.php
+- 12:24:30.359 INFO: GET 200 /main/src/facebox.js
+- 12:24:30.359 INFO: GET 200 /main/src/facebox.css
+- 12:24:30.359 INFO: GET 200 /main/lib/jquery.js
+- 12:24:30.422 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:24:30.422 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:24:30.422 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:24:30.422 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:24:30.422 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:24:30.422 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:24:30.437 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:24:30.437 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:24:30.437 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:24:30.437 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:24:30.437 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:24:30.437 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:24:30.437 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:24:30.437 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:24:30.437 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:24:30.437 INFO: GET 200 /main/js/bootstrap.js
+- 12:24:30.437 INFO: GET 200 /main/js/jquery.dataTables.js
+- 12:24:30.453 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:24:30.469 INFO: GET 200 /main/img/bg/4.png
+- 12:24:30.484 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+[0831/122430.548:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+[0831/122430.551:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122430.556:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+- 12:24:30.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:24:31.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/index.php
+- 12:24:31.625 DEBUG: OnContextCreated()
+- 12:24:31.828 INFO: GET 200 /main/css/bootstrap.css
+- 12:24:31.844 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:24:31.844 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:24:31.844 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:24:31.844 INFO: GET 200 /style.css
+- 12:24:31.844 INFO: GET 200 /main/index.php
+- 12:24:31.844 INFO: GET 200 /main/src/facebox.css
+- 12:24:31.844 INFO: GET 200 /main/src/facebox.js
+- 12:24:31.844 INFO: GET 200 /main/lib/jquery.js
+- 12:24:31.859 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:24:31.859 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:24:31.859 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:24:31.859 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:24:31.859 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:24:31.859 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:24:31.859 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:24:31.875 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:24:31.875 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:24:31.875 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:24:31.875 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:24:31.875 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:24:31.875 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:24:31.890 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:24:31.890 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:24:31.890 INFO: GET 200 /main/js/bootstrap.js
+- 12:24:31.890 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:24:31.890 INFO: GET 200 /main/js/jquery.dataTables.js
+[0831/122431.944:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+- 12:24:31.906 INFO: GET 200 /main/img/bg/4.png
+- 12:24:31.906 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+[0831/122432.018:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122432.026:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+- 12:24:32.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:24:36.031 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/index.php
+- 12:24:36.937 DEBUG: OnContextCreated()
+- 12:24:36.156 INFO: GET 200 /main/sales.php?id=cash&invoice=RS-2326502
+- 12:24:36.219 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/sales.php?id=cash&invoice=RS-2326502
+- 12:24:36.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/sales.php?id=cash&invoice=RS-2326502
+- 12:24:36.594 DEBUG: OnContextCreated()
+- 12:24:36.797 INFO: GET 200 /main/products.php
+- 12:24:36.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/products.php
+- 12:24:37.297 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/products.php
+- 12:24:37.156 DEBUG: OnContextCreated()
+- 12:24:37.359 INFO: GET 200 /main/index.php
+[0831/122437.455:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+[0831/122437.474:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122437.495:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+- 12:24:37.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:25:07.437 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/index.php
+- 12:25:07.312 DEBUG: OnContextCreated()
+- 12:25:07.515 INFO: GET 200 /main/sales.php?id=cash&invoice=RS-243230
+- 12:25:07.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/sales.php?id=cash&invoice=RS-243230
+- 12:25:08.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/sales.php?id=cash&invoice=RS-243230
+- 12:25:08.031 DEBUG: OnContextCreated()
+- 12:25:08.234 INFO: GET 200 /main/products.php
+- 12:25:08.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/products.php
+- 12:25:15.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/products.php
+- 12:25:15.328 DEBUG: OnContextCreated()
+- 12:25:15.531 INFO: GET 200 /main/customer.php
+- 12:25:15.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/customer.php
+- 12:25:16.359 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/customer.php
+- 12:25:16.219 DEBUG: OnContextCreated()
+- 12:25:16.437 INFO: GET 200 /main/supplier.php
+- 12:25:16.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/supplier.php
+- 12:25:17.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/supplier.php
+- 12:25:17.187 DEBUG: OnContextCreated()
+- 12:25:17.390 INFO: GET 200 /main/tcal.css
+- 12:25:17.406 INFO: GET 200 /main/tcal.js
+- 12:25:17.406 INFO: GET 200 /main/salesreport.php?d1=0&d2=0
+- 12:25:17.406 INFO: GET 200 /main/img/cal.gif
+- 12:25:17.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/salesreport.php?d1=0&d2=0
+- 12:25:25.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/salesreport.php?d1=0&d2=0
+- 12:25:26.812 DEBUG: OnContextCreated()
+- 12:25:26.015 INFO: GET 200 /main/index.php
+[0831/122526.106:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+[0831/122526.112:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122526.126:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+- 12:25:26.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:28:25.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/index.php
+- 12:28:25.609 DEBUG: OnContextCreated()
+- 12:28:25.812 INFO: GET 200 /index.php
+- 12:28:25.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/index.php
+- 12:28:31.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/index.php
+- 12:28:31.719 INFO: POST 302 /login.php
+- 12:28:31.594 DEBUG: OnContextCreated()
+- 12:28:31.797 INFO: GET 200 /main/index.php
+[0831/122831.861:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+[0831/122831.863:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122831.869:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+- 12:28:31.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:28:37.062 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/index.php
+- 12:28:37.922 DEBUG: OnContextCreated()
+- 12:28:37.125 INFO: GET 200 /index.php
+- 12:28:37.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/index.php
+- 12:28:42.937 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/index.php
+- 12:28:43.047 INFO: POST 302 /login.php
+- 12:28:43.922 DEBUG: OnContextCreated()
+- 12:28:43.125 INFO: GET 200 /main/index.php
+[0831/122843.199:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+[0831/122843.202:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122843.205:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+[0831/122843.205:INFO:CONSOLE(55)] "Uncaught TypeError: Cannot read property 'face' of undefined", source: http://127.0.0.1:53825/main/index.php (55)
+- 12:28:43.156 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:29:09.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/index.php
+- 12:29:09.672 DEBUG: OnContextCreated()
+- 12:29:09.890 INFO: GET 200 /main/css/bootstrap.css
+- 12:29:09.890 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:29:09.890 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:29:09.890 INFO: GET 200 /style.css
+- 12:29:09.890 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:29:09.890 INFO: GET 200 /main/index.php
+- 12:29:09.890 INFO: GET 200 /main/src/facebox.css
+- 12:29:09.890 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:29:09.890 INFO: GET 200 /main/src/facebox.js
+- 12:29:09.890 INFO: GET 200 /main/lib/jquery.js
+- 12:29:09.890 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:29:09.890 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:29:09.922 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:29:09.922 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:29:09.922 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:29:09.922 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:29:09.937 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:29:09.937 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:29:09.937 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:29:09.937 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:29:09.937 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:29:09.937 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:29:09.937 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:29:09.937 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:29:09.937 INFO: GET 200 /main/js/bootstrap.js
+- 12:29:09.937 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:29:09.937 INFO: GET 200 /main/js/jquery.dataTables.js
+- 12:29:10.969 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+- 12:29:10.969 INFO: GET 200 /main/img/bg/4.png
+[0831/122910.037:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+[0831/122910.042:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122910.085:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+[0831/122910.086:INFO:CONSOLE(55)] "Uncaught TypeError: Cannot read property 'face' of undefined", source: http://127.0.0.1:53825/main/index.php (55)
+- 12:29:10.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:29:11.140 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/index.php
+- 12:29:11.016 DEBUG: OnContextCreated()
+- 12:29:11.219 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:29:11.219 INFO: GET 200 /main/css/bootstrap.css
+- 12:29:11.219 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:29:11.219 INFO: GET 200 /style.css
+- 12:29:11.219 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:29:11.219 INFO: GET 200 /main/index.php
+- 12:29:11.219 INFO: GET 200 /main/src/facebox.css
+- 12:29:11.234 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:29:11.234 INFO: GET 200 /main/lib/jquery.js
+- 12:29:11.234 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:29:11.234 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:29:11.234 INFO: GET 200 /main/src/facebox.js
+- 12:29:11.250 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:29:11.250 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:29:11.250 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:29:11.250 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:29:11.250 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:29:11.250 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:29:11.250 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:29:11.250 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:29:11.265 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:29:11.265 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:29:11.265 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:29:11.265 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:29:11.265 INFO: GET 200 /main/js/bootstrap.js
+- 12:29:11.265 INFO: GET 200 /main/js/jquery.dataTables.js
+- 12:29:11.281 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:29:11.297 INFO: GET 200 /main/img/bg/4.png
+- 12:29:11.297 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+[0831/122911.370:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+[0831/122911.374:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122911.381:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+[0831/122911.385:INFO:CONSOLE(55)] "Uncaught TypeError: Cannot read property 'face' of undefined", source: http://127.0.0.1:53825/main/index.php (55)
+- 12:29:11.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:29:12.906 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:53825/main/index.php
+- 12:29:13.766 DEBUG: OnContextCreated()
+- 12:29:13.984 INFO: GET 200 /main/css/DT_bootstrap.css
+- 12:29:13.984 INFO: GET 200 /main/css/bootstrap.css
+- 12:29:13.984 INFO: GET 200 /main/css/font-awesome.min.css
+- 12:29:13.984 INFO: GET 200 /style.css
+- 12:29:13.984 INFO: GET 200 /main/css/bootstrap-responsive.css
+- 12:29:13.984 INFO: GET 200 /main/index.php
+- 12:29:13.984 INFO: GET 200 /main/src/facebox.css
+- 12:29:13.984 INFO: GET 200 /main/vendors/chosen.min.css
+- 12:29:13.984 INFO: GET 200 /main/lib/jquery.js
+- 12:29:13.984 INFO: GET 200 /main/src/facebox.js
+- 12:29:13.984 INFO: GET 200 /main/vendors/chosen.jquery.min.js
+- 12:29:13.984 INFO: GET 200 /main/vendors/bootstrap-datepicker.js
+- 12:29:13.000 INFO: GET 200 /main/js/bootstrap-transition.js
+- 12:29:13.000 INFO: GET 200 /main/js/bootstrap-alert.js
+- 12:29:13.000 INFO: GET 200 /main/js/bootstrap-modal.js
+- 12:29:13.000 INFO: GET 200 /main/js/bootstrap-scrollspy.js
+- 12:29:13.000 INFO: GET 200 /main/js/bootstrap-tab.js
+- 12:29:13.000 INFO: GET 200 /main/js/bootstrap-tooltip.js
+- 12:29:13.000 INFO: GET 200 /main/js/bootstrap-dropdown.js
+- 12:29:13.015 INFO: GET 200 /main/js/bootstrap-button.js
+- 12:29:13.015 INFO: GET 200 /main/js/bootstrap-collapse.js
+- 12:29:13.015 INFO: GET 200 /main/js/bootstrap-carousel.js
+- 12:29:13.015 INFO: GET 200 /main/js/bootstrap-typeahead.js
+- 12:29:13.015 INFO: GET 200 /main/js/bootstrap.js
+- 12:29:13.015 INFO: GET 200 /main/js/bootstrap-popover.js
+- 12:29:13.015 INFO: GET 200 /main/js/DT_bootstrap.js
+- 12:29:13.015 INFO: GET 200 /main/js/jquery.dataTables.js
+- 12:29:13.047 INFO: GET 200 /main/img/bg/4.png
+- 12:29:13.047 INFO: GET 200 /main/font/fontawesome-webfont.woff?v=3.0.1
+[0831/122913.108:INFO:CONSOLE(144)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-scrollspy.js (144)
+[0831/122913.113:INFO:CONSOLE(1483)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap.js (1483)
+[0831/122913.119:INFO:CONSOLE(87)] "Uncaught TypeError: $(...).on is not a function", source: http://127.0.0.1:53825/main/js/bootstrap-alert.js (87)
+[0831/122913.123:INFO:CONSOLE(55)] "Uncaught TypeError: Cannot read property 'face' of undefined", source: http://127.0.0.1:53825/main/index.php (55)
+- 12:29:13.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:53825/main/index.php
+- 12:29:53.890 DEBUG: WM_DESTROY
+- 12:29:53.890 DEBUG: RemoveBrowserWindow(): hwnd = 4588494
+- 12:29:53.890 INFO: Stopping Mongoose web server
+- 12:29:53.890 DEBUG: Mongoose webserver stopped immediately
+- 12:29:53.890 DEBUG: OnBeforeClose() hwnd=3802214
+- 12:29:53.890 DEBUG: RemoveBrowserWindow(): hwnd = 3802214
+- 12:29:53.890 DEBUG: GetBrowserWindow(): not found, hwnd = 3802214
+- 12:29:53.890 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:29:53.890 DEBUG: Calling CefQuitMessageLoop()
+- 12:29:54.969 INFO: Ended application
+- 12:29:54.969 INFO: --------------------------------------------------------
+- 12:45:24.000 INFO: --------------------------------------------------------
+- 12:45:24.000 INFO: Started application
+- 12:45:24.000 INFO: Logging to: C:\Users\Elbert\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 12:45:24.000 INFO: Log level = DEBUG4
+- 12:45:24.000 INFO: Starting Mongoose 3.9c web server
+- 12:45:24.000 INFO: WWW directory: C:\Users\Elbert\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 12:45:24.000 INFO: Index files: index.html,index.php
+- 12:45:24.000 INFO: CGI interpreter: C:\Users\Elbert\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 12:45:24.000 INFO: CGI pattern: **.php$
+- 12:45:24.000 INFO: Hide files patterns: 
+- 12:45:24.000 INFO: CGI environment variables set: TMP=C:\Users\Elbert\AppData\Local\Temp\,TEMP=C:\Users\Elbert\AppData\Local\Temp\,TMPDIR=C:\Users\Elbert\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 12:45:24.016 INFO: Web server url: http://127.0.0.1:58197/
+- 12:45:24.016 INFO: remote_debugging_port = 63336
+- 12:45:24.016 DEBUG: Command line string for the browser process: "C:\Users\Elbert\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --no-sandbox --lang=en-US --log-file="C:\Users\Elbert\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=63336
+- 12:45:24.157 DEBUG: App::OnContextInitialized()
+- 12:45:24.157 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 12:45:24.157 DEBUG: Window max width/height = 1842/974
+- 12:45:24.157 DEBUG: GetBrowserWindow(): not found, hwnd = 918912
+- 12:45:24.157 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:45:24.157 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:45:24.157 DEBUG: StoreBrowserWindow(): hwnd = 918912
+- 12:45:24.000 DEBUG: Command line string for the gpu-process process: "C:\Users\Elbert\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="C:\Users\Elbert\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x9a49 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=30.0.101.1960 --gpu-driver-date=4-29-2022 --lang=en-US --log-file="C:\Users\Elbert\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=73A09124F5B30F43520B7044886F40A7 --mojo-platform-channel-handle=1856 /prefetch:2
+- 12:45:24.266 DEBUG: ClientHandler::OnAfterCreated()
+- 12:45:24.266 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:45:24.297 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:45:24.000 DEBUG: Command line string for the renderer process: "C:\Users\Elbert\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\POS.exe" --type=renderer --no-sandbox --primordial-pipe-token=7ACB46BB55ED050A837FDF6A1A74C88B --lang=en-US --lang=en-US --log-file="C:\Users\Elbert\Downloads\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=7ACB46BB55ED050A837FDF6A1A74C88B --renderer-client-id=3 --mojo-platform-channel-handle=2396 /prefetch:1
+- 12:45:24.047 DEBUG: OnBrowserCreated()
+[0904/124524.557:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 12:45:25.407 INFO: GET 200 /
+- 12:45:25.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58197/
+- 12:45:27.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:58197/
+- 12:45:28.469 INFO: GET 200 /pos.php
+- 12:45:28.157 DEBUG: OnContextCreated()
+- 12:45:29.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:58197/pos.php
+- 12:45:44.563 DEBUG: WM_DESTROY
+- 12:45:44.563 DEBUG: RemoveBrowserWindow(): hwnd = 918912
+- 12:45:44.563 INFO: Stopping Mongoose web server
+- 12:45:44.563 DEBUG: Mongoose webserver stopped immediately
+- 12:45:44.657 DEBUG: OnBeforeClose() hwnd=198124
+- 12:45:44.657 DEBUG: RemoveBrowserWindow(): hwnd = 198124
+- 12:45:44.657 DEBUG: GetBrowserWindow(): not found, hwnd = 198124
+- 12:45:44.657 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:45:44.657 DEBUG: Calling CefQuitMessageLoop()
+- 12:45:44.344 DEBUG: OnBrowserDestroyed()
+- 12:45:44.703 INFO: Ended application
+- 12:45:44.703 INFO: --------------------------------------------------------
